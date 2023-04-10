@@ -4,17 +4,17 @@ require 'PHPMailer/PHPMailerAutoload.php';
 require 'partials/base.php';
 $key_pass = 'MzH3WPNc';
 #Test Values#
-#$key_mail = 'krenicgm@gmail.com';
-#$key_name = 'Edwin Nicolás';
-#$key_ubica = 'CDMX';
-#$key_depen = 'PJCDMX';
-#$key_cel = '5582329936';
+$key_mail = 'krenicgm@gmail.com';
+$key_name = 'Edwin Nicolás';
+$key_ubica = 'CDMX';
+$key_depen = 'PJCDMX';
+$key_cel = '5582329936';
 
-$key_mail = $_POST['email'];
-$key_name = $_POST['nombre'];
-$key_ubica = $_POST['pais'];
-$key_depen = $_POST['dependencia'];
-$key_cel = $_POST['cel'];
+#$key_mail = $_POST['email'];
+#$key_name = $_POST['nombre'];
+#$key_ubica = $_POST['pais'];
+#$key_depen = $_POST['dependencia'];
+#$key_cel = $_POST['cel'];
 if(is_equal($key_mail))
 {
     echo json_encode(array('success' => false, 'why' => 'El email ya está registrado'));
@@ -140,7 +140,7 @@ function enviar_email($email, $nombre, $contrasena)
 {
     global $errorM;
     $mail = new PHPMailer(); //Create a new PHPMailer instance
-    #$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+    $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;
     $mail->IsSMTP();
     //Configuracion servidor mail
     $mail->SMTPAuth = true;
