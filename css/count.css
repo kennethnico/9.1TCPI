@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*
+*{
+    font-family: 'Lato', 'sans-serif';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*/
+.container_c{
+    width: 90%;
+    margin:30px auto;
+}
+.container_c h1,
+.container_c p{
+    color:#fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container_c h1{
+    font-size: 2em;
+}
+.container_c p{
+    font-size: 1.5em;
+}
+.center-abs{
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+}
+
+.charts{
+    display: flex;
+}
+.chart{
+    position: relative;
+    width:25%;
+    height: 260px;
+}
+.chart h3{
+    color:#fff;
+    font-size: 1.1em;
+    position: absolute;
+    bottom:10px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 10px #000;
+}
+.chart svg{
+    z-index: 2;
+}
+
+/* DIV CIRCULO DE FONDO */
+.circle{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    z-index:1;
+    border:10px var(--gradiente-tres) solid;
+}
+.textC{
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    font-size: 3.8em;
+    font-weight: 700;
+    color:var(--secondary-color);
+}
+/* SVG CIRCULO */
+.outer{
+    fill:transparent;
+    stroke: var(--secondary-color);
+    stroke-width: 10; /* grosor del borde */
+    stroke-dasharray: 439; /* numero de relleno del borde, se usa el mismo valor en el script.js */
+    transform: rotate(270deg) translate(-100px, 0);
+    /* giramos el circulo para que su apertura sea en la parte superior
+    y ajustamos su posicion
+    */
+}

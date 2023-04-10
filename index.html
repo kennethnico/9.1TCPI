@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Main 8° Taller de Cooperación Procesal"/>
+    <meta property="og:image" content="https://srae.poderjudicialcdmx.gob.mx:2053/8TCPI/assets/logos/logo_txt.png"/>
+    <meta property="og:url" content="https://www.spoderjudicialcdmx.gob.mx"/>
+    <meta property="og:site_name" content="9° TCPI"/>
+    <meta property="og:description" content="Página de login y registro del 9° Taller de Cooperación procesal internacional. CONATRIB y SRE"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/presets.css">
+    <link rel="shortcut icon" href="assets/logos/9num.png">
+    <title>9° Taller de Cooperación Procesal Internacional</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHZQYPSHHL"></script>
+    <script>
+        /*
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZHZQYPSHHL');
+        */
+    </script>
+</head>
+<body>
+<!------------------------------------------->
+<!-- Modal -->
+<div class="modal fade" id="acceptModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Registro Completado</h5>
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>-->
+            </div>
+            <div class="modal-body">
+                <div class="d-flex flex-column">
+                    <div class="p-2 d-flex justify-content-center text-center">
+                        <div style="color: #FFF; font-size: 50px; background-color: #8A2138; width: 100px; height: 100px;" class="rounded-circle d-flex justify-content-center align-items-center">✓</div>
+                    </div>
+                    <div class="p-2">Gracias, Hemos enviado un correo confirmando tu registro a:</div>
+                    <div class="p-2" style="color: #BC955C;"><span id="emailJS"></span></div>
+                    <div class="p-2">Favor de verificar en la carpeta de SPAM o Correo no deseado.</div>
+                    <div class="p-2">En caso de no recibir el email en un plazo máximo de 24 horas, envía un email con tus datos de registro al email: edwin.nicolas@tsjcdmx.gob.mx con el asunto: "9° TCPI - Solicitud de Claves de acceso"</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="$('#acceptModal').modal('hide')">Cerrar</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Modal error------------->
+<div class="modal" tabindex="-1" id="openModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Error al iniciar de sesión</h5>
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>-->
+            </div>
+            <div class="modal-body">
+                <div class="p-2"><span id="error" class="error align-center"></span></div><br>
+                <div class="p-2"><span id="error1" class="error1 align-center font-primary-color"></span></div><br>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="$('#openModal').modal('hide')">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Modal error------------->
+<!------------------------------------------->
+<!------------------------------------------->
+<section class="main">
+    <div class="container-1">
+        <div class="row">
+            <!---Login-->
+            <div class="col-12 sections unshowed">
+                <div class="box">
+                    <div class="square" style="--i:0"></div>
+                    <div class="square" style="--i:1"></div>
+                    <div class="square" style="--i:2"></div>
+                    <div class="square" style="--i:3"></div>
+                    <div class="square" style="--i:4"></div>
+                    <div class="container">
+                        <div class="form">
+                            <h2>Ingreso</h2>
+                            <br>
+                            <!--<img src="./assets/logos/proximamente.png" class="rounded mx-auto d-block" alt="..." style="max-height: 300px; height: 300px;">-->
+                            <img src="./assets/logos/logo_txt.png" class="rounded mx-auto d-block" alt="..." style="max-height: 120px; height: 120px;">
+                            <form method="post" class="regFormLog">
+                                <div class="inputBox">
+                                    <input type="text" name="aidi" id="aidi" required="required">
+                                    <span>Email</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="password" name="pass" id="pass" required="required">
+                                    <span>Contraseña</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="button" class="btn" id="sender_login" value="Entrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----Registro--->
+            <div class="col-12 sections">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="box">
+                    <div class="square" style="--i:0"></div>
+                    <div class="square" style="--i:1"></div>
+                    <div class="square" style="--i:2"></div>
+                    <div class="square" style="--i:3"></div>
+                    <div class="square" style="--i:4"></div>
+                    <div class="container">
+                        <div class="form">
+                            <img src="./assets/logos/logo_sec.png" class="rounded mx-auto d-block" alt="..." style="max-height: 120px; height: 120px;">
+                            <h2>Registro</h2>
+                            <form method="post" class="regForm">
+                                <div class="inputBox">
+                                    <input type="text" name="nombre" id="name" required="required" autocomplete="off">
+                                    <span>Nombre Completo</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="dependencia" id="depen" required="required" autocomplete="off">
+                                    <span>Dependencia</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="email" name="email" id="em" required="required" autocomplete="off">
+                                    <span>Email</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="cel" id="cl" required="required" autocomplete="off">
+                                    <span>Teléfono</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="pais" id="pa" required="required" autocomplete="off">
+                                    <span>País</span>
+                                </div>
+                                <!--<div class="inputBox">
+                                    <select name="mesa">
+                                        <option value="familiar"></option>
+                                        <option value="penal"></option>
+                                        <option value="civil"></option>
+                                    </select>
+                                    <span>Mesa</span>
+                                </div>-->
+                                <div class="inputBox">
+                                    <div id="errormessage" class="unshowed"></div>
+                                    <input type="submit" id="sender" value="Enviar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----Tarjete de presentación del Taller---->
+            <div class="col-12 sections unshowed">
+                <div class="infoC">
+                    <div class="card">
+                        <div class="imgBx">
+                            <img src="./assets/logos/logo_txt.png" alt="">
+                        </div>
+                        <div class="contentBx">
+                <!--
+                            <span>
+                            Con la impartición de este 8° Taller se continúa persiguiendo y facilitando el intercambio de conocimientos y experiencias entre los operadores judiciales, académicos, legisladores y ciudadanía sobre normas y estándares existentes en el campo y sus implicaciones, así como poder generar cambios en nuestro sistema y legislación que nos permita ir acorde con los avances mundiales en la materia.<br>
+                            </span>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="row">
+        <div class="col-12">
+            <div class="navigation">
+                <ul>
+                    <li class="list" data-wow-duration="1s" data-wow-delay="0.2s" id="inn" style="--clr: #16213E;"><a href="#"><span class="icon"><ion-icon name="home-outline"></ion-icon></span><span class="text">Ingresa</span></a></li>
+                    <li class="list active wow bounceIn" id="reg" style="--clr: #0F3460;"><a href="#"><span class="icon"><ion-icon name="person-add-outline"></ion-icon></span><span class="text">Registro</span></a></li>
+                    <li class="list" id="info" style="--clr: #533483;"><a href="#"><span class="icon"><ion-icon name="information-circle-outline"></ion-icon></span><span class="text">Acerca de</span></a></li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    const lista = document.querySelectorAll('.list');
+    const sections = document.querySelectorAll('.sections');
+    function activeLink(){
+        lista.forEach((item)=>
+        item.classList.remove('active'));
+        this.classList.add('active');
+        const ide = this.getAttribute('id');
+        switch(ide){
+            case 'inn':
+                sections.item(0).classList.remove('unshowed');
+                sections.item(1).classList.add('unshowed');
+                sections.item(2).classList.add('unshowed');
+                break;
+            case 'reg':
+                sections.item(0).classList.add('unshowed');
+                sections.item(1).classList.remove('unshowed');
+                sections.item(2).classList.add('unshowed');
+                break;
+            case 'info':
+                sections.item(0).classList.add('unshowed');
+                sections.item(1).classList.add('unshowed');
+                sections.item(2).classList.remove('unshowed');
+                break;
+        }
+    }
+    lista.forEach((item)=>
+    item.addEventListener('click',activeLink));
+    $(document).ready(function() {
+        /*Función para redirigir en caso de que exista una sesión creada*/
+        $.ajax({
+            type: "POST",
+            url: "partials/redd.php",
+            dataType: "json",
+            success: function(response) {
+                if (response.success) {
+                    window.location.href = "c2VsZWN0.php";
+                }
+            }
+        });
+        /*Función para registrarse*/
+        $("#sender").click(function() {
+            if (validaForm()) {
+                $('#sender').prop('disabled', true);
+                $("#sender").val("Enviando...");
+                $.ajax({
+                    url: "register.php",
+                    type: "POST",
+                    dataType: "json",
+                    data: $(".regForm").serialize(),
+                    success: function(response) {
+                        console.log(response.success);
+                        console.log(response.why);
+                        if (response.success) {
+                            $("#emailJS").html("<span>" + response.remy + "</span>");
+                            $("#em").val('');
+                            $("#name").val('');
+                            $("#pa").val('');
+                            $("#depen").val('');
+                            $("#cl").val('');
+                            $("#sender").val("ENVIAR");
+                            $("#errormessage").hide();
+                            //$('#errormessage').classList.add('unshowed');
+                            //window.location.href = "#openModal";
+                            $('#acceptModal').modal('show')
+                            /*alert('Campos recibidos con AJAX.');*/
+                        } else {
+                            //alert("Ocurrió un error al hacer el envío del email de confirmación -");
+                            $("#errormessage").html("<p style='color: rgb(255,0,0);'>" + response.why + "</p>");
+                            //$("#errormessage").prop('visibility', 'visible');
+                            document.querySelectorAll('#errormessage').item(0).classList.remove('unshowed');
+                            /*$("#em").val('');
+                            $("#name").val('');
+                            $("#pa").val('');
+                            $("#depen").val('');*/
+                            $('#sender').val("Enviar");
+                            $("#sender").prop('disabled', false);
+                        }
+                    }
+                });
+            }
+        });
+        /*Función para iniciar sesión*/
+        $("#sender_login").click(function() {
+            console.log("clicked");
+            if (validaFormLog()) {
+                $('#sender_login').prop('disabled', true);
+                $("#sender_login").val("Validando...");
+                $.ajax({
+                    url: "partials/valida_v2.php",
+                    type: "POST",
+                    dataType: "json",
+                    data: $(".regFormLog").serialize(),
+                    success: function(response) {
+                        console.log("im in...");
+                        console.log(response.success);
+                        console.log(response.why);
+                        if (response.success) {
+                            window.location.href = "c2VsZWN0.php";
+                            $("#sender").prop('disabled', false);
+                        } else {
+                            $('.error').text(response.why);
+                            $('.error1').text(response.id);
+                            $("#aidi").val(response.id);
+                            $("#pass").val('');
+                            $('#sender_login').prop('disabled', false);
+                            $("#sender_login").val("Entrar");
+                            $("#errormessage").prop('visibility', "visible");
+                            //window.location.href = "#openModal"; //Si devuelve 'false' no se encontró el ID.
+                            $('#openModal').modal('show')
+                        }
+                    }
+                });
+            } else {
+                $('#errormessage').prop('visibility', "visible");
+                $("#errormessage").val('El campo es necesario.');
+            }
+        });
+
+    });
+    function validaFormLog() {
+        // Campos de texto
+        if ($("#aidi").val() === "") {
+            $("#nombre").focus(); // Esta función coloca el foco de escritura del usuario en el campo Nombre directamente.
+            return false;
+        } else {
+            return true; // Si todo está correcto
+        }
+    }
+    function validaForm() {
+        // Campos de texto
+        if ($("#name").val() === "") {
+            alert("El campo Nombre no puede estar vacío.");
+            $("#nombre").focus(); // Esta función coloca el foco de escritura del usuario en el campo Nombre directamente.
+            return false;
+        }
+        if ($("#em").val() === "") {
+            alert("El campo Email no puede estar vacío.");
+            $("#em").focus();
+            return false;
+        }
+        if ($("#depen").val() === "") {
+            alert("Todos los campos son obligatioros.");
+            $("#depen").focus();
+            return false;
+        }
+        if ($("#pa").val() === "") {
+            alert("Todos los campos son obligatioros.");
+            $("#pa").focus();
+            return false;
+        } else {
+            return true; // Si todo está correcto
+        }
+    }
+</script>
+</body>
+</html>

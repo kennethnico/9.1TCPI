@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown timer</title>
+
+  <link rel="stylesheet" href="css/count.css">
+  <link rel="stylesheet" href="css/dynamic.css">
+</head>
+<body>
+
+<section class="container_c">
+  <h1>Próximamente</h1>
+  <p>- - - - - - - -</p>
+  <div class="charts">
+    <div class="chart">
+      <!-- un circulo inicial de fondo -->
+      <div class="circle center-abs"></div>
+      <!-- area para SVG -->
+      <svg class="center-abs" width="100" height="100">
+        <!-- un segundo circulo en SVG con su ubicacion en coordenadas x,y y el radio de expansion -->
+        <circle class="outer" cx="50" cy="50" r="45" />
+      </svg>
+      <!-- etiqueta para el contador, en este caso el dia -->
+      <span class="textC center-abs" id="days"></span>
+      <h3>Días</h3>
+    </div>
+    <div class="chart">
+      <div class="circle center-abs"></div>
+      <svg class="center-abs" width="100" height="100">
+        <circle class="outer" cx="50" cy="50" r="45" />
+      </svg>
+      <span class="textC center-abs" id="hours"></span>
+      <h3>Horas</h3>
+    </div>
+    <div class="chart">
+      <div class="circle center-abs"></div>
+      <svg class="center-abs" width="100" height="100">
+        <circle class="outer" cx="50" cy="50" r="45" />
+      </svg>
+      <span class="textC center-abs" id="minutes"></span>
+      <h3>Minutos</h3>
+    </div>
+    <div class="chart">
+      <div class="circle center-abs"></div>
+      <svg class="center-abs" width="100" height="100">
+        <circle class="outer" cx="50" cy="50" r="45" />
+      </svg>
+      <span class="textC center-abs" id="seconds"></span>
+      <h3>Segundos</h3>
+    </div>
+  </div>
+</section>
+<script src="js/script_c.js"></script>
+</body>
+</html>
