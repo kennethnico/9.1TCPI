@@ -140,7 +140,7 @@ function enviar_email($email, $nombre, $contrasena)
 {
     global $errorM;
     $mail = new PHPMailer(); //Create a new PHPMailer instance
-    $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;
+    //$mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;
     $mail->IsSMTP();
     //Configuracion servidor mail
     $mail->SMTPAuth = true;
