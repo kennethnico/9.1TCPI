@@ -125,7 +125,7 @@ function is_not_set($value)
 ###############################################
 function data_inyect($n,$e,$c,$u,$d,$p){
     require 'partials/base.php';
-    $sql = "INSERT INTO tcpi_nueve(nombre,email,telefono,ubicacion,dependencia, passsword) VALUES ('".$n."','".$e."','".$c."','".$u."','".$d."','".$p."')";
+    $sql = "INSERT INTO tcpi_nueve(nombre,email,telefono,ubicacion,dependencia, passsword,mesa) VALUES ('".$n."','".$e."','".$c."','".$u."','".$d."','".$p."','All')";
     $count = $conn->exec($sql);
     return $count;
 }
