@@ -4,17 +4,17 @@ require 'PHPMailer/PHPMailerAutoload.php';
 require 'partials/base.php';
 $key_pass = 'MzH3WPNc';
 #Test Values#
-$key_mail = 'krenicgm@gmail.com';
-$key_name = 'Edwin Nicolás';
-$key_ubica = 'CDMX';
-$key_depen = 'PJCDMX';
-$key_cel = '5582329936';
+#$key_mail = 'krenicgm@gmail.com';
+#$key_name = 'Edwin Nicolás';
+#$key_ubica = 'CDMX';
+#$key_depen = 'PJCDMX';
+#$key_cel = '5582329936';
 
-#$key_mail = $_POST['email'];
-#$key_name = $_POST['nombre'];
-#$key_ubica = $_POST['pais'];
-#$key_depen = $_POST['dependencia'];
-#$key_cel = $_POST['cel'];
+$key_mail = $_POST['email'];
+$key_name = $_POST['nombre'];
+$key_ubica = $_POST['pais'];
+$key_depen = $_POST['dependencia'];
+$key_cel = $_POST['cel'];
 if(is_equal($key_mail))
 {
     echo json_encode(array('success' => false, 'why' => 'El email ya está registrado'));
@@ -144,10 +144,10 @@ function enviar_email($email, $nombre, $contrasena)
     $mail->IsSMTP();
     //Configuracion servidor mail
     $mail->SMTPAuth = true;
-    $mail->SMTPSecure = 'tls'; //seguridad
+    $mail->SMTPSecure = 'ssl'; //seguridad
     #$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Host = "smtp.gmail.com"; // servidor smtp
-    $mail->Port = 587; //puerto
+    $mail->Port = 465; //puerto
     $mail->CharSet = 'UTF-8';
     /*
     $mail->From = "example@example.com"; //remitente
