@@ -355,6 +355,7 @@ if(!isset($_SESSION['myuser']))
     </section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
+    <!--
     <section id="services" class="services section-bg">
         <div class="container">
             <div class="row">
@@ -403,9 +404,11 @@ if(!isset($_SESSION['myuser']))
             </div>
 
         </div>
-    </section><!-- End Services Section -->
+    </section>
+    --><!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
+    <!--
     <section id="portfolio" class="portfolio">
         <div class="container">
 
@@ -556,9 +559,11 @@ if(!isset($_SESSION['myuser']))
             </div>
 
         </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    --><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
+    <!--
     <section id="testimonials_1" class="testimonials section-bg">
         <div class="container">
             <div class="row">
@@ -584,7 +589,7 @@ if(!isset($_SESSION['myuser']))
                                     <h3>Saul Goodman</h3>
                                     <h4>Ceo &amp; Founder</h4>
                                 </div>
-                            </div><!-- End testimonial item -->
+                            </div>
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
@@ -597,7 +602,7 @@ if(!isset($_SESSION['myuser']))
                                     <h3>Sara Wilsson</h3>
                                     <h4>Designer</h4>
                                 </div>
-                            </div><!-- End testimonial item -->
+                            </div>
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
@@ -610,7 +615,7 @@ if(!isset($_SESSION['myuser']))
                                     <h3>Jena Karlis</h3>
                                     <h4>Store Owner</h4>
                                 </div>
-                            </div><!-- End testimonial item -->
+                            </div>
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
@@ -623,7 +628,7 @@ if(!isset($_SESSION['myuser']))
                                     <h3>Matt Brandon</h3>
                                     <h4>Freelancer</h4>
                                 </div>
-                            </div><!-- End testimonial item -->
+                            </div>
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
@@ -636,7 +641,7 @@ if(!isset($_SESSION['myuser']))
                                     <h3>John Larson</h3>
                                     <h4>Entrepreneur</h4>
                                 </div>
-                            </div><!-- End testimonial item -->
+                            </div>
 
                         </div>
                         <div class="swiper-pagination"></div>
@@ -646,9 +651,11 @@ if(!isset($_SESSION['myuser']))
 
         </div>
     </section>
+    -->
     <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
+    <!--
     <section id="team" class="team">
         <div class="container">
 
@@ -736,9 +743,11 @@ if(!isset($_SESSION['myuser']))
             </div>
 
         </div>
-    </section><!-- End Team Section -->
+    </section>
+    --><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
+    <!--
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
@@ -799,7 +808,8 @@ if(!isset($_SESSION['myuser']))
             </div>
 
         </div>
-    </section><!-- End Contact Section -->
+    </section>
+    --><!-- End Contact Section -->
 
 </main><!-- End #main -->
 
@@ -859,7 +869,7 @@ if(!isset($_SESSION['myuser']))
 
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>PJCDM</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>EKNR</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
             </div>
