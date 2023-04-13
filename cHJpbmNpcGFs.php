@@ -1,11 +1,11 @@
 <?php
-session_start();
-require 'partials/base.php';
-require 'partials/expires.php';
-if(!isset($_SESSION['myuser']))
-{
-    echo'<script>window.location.href="index.html"</script>';
-}
+#session_start();
+#require 'partials/base.php';
+#require 'partials/expires.php';
+#if(!isset($_SESSION['myuser']))
+#{
+#    echo'<script>window.location.href="index.html"</script>';
+#}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -54,11 +54,11 @@ if(!isset($_SESSION['myuser']))
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
                     <li><a class="nav-link scrollto" href="#about">Antecedentes</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Talleres</a></li>
-                    <li><a class="nav-link scrollto " href="#portfolio">Programa</a></li>
+                    <li><a class="nav-link scrollto " href="#cta">Programa</a></li>
                     <li><a class="nav-link scrollto" href="#team">Semblanzas</a></li>
                     <li><a class="getstarted scrollto" href="#about">Comenzar</a></li>
                     <!--
+                    <li><a class="nav-link scrollto" href="#services">Talleres</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     -->
@@ -348,26 +348,26 @@ if(!isset($_SESSION['myuser']))
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
                <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
                <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
-                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/7484ed46b7.html" style="border: 1px solid lightgray; width: 80%; height: 600px;"></iframe>
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/4e2ba25f63.html" style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
             </div>
 
         </div>
     </section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
-    <!--
+
     <section id="services" class="services section-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="section-title" data-aos="fade-right">
-                        <h2>Services</h2>
-                        <p>Magnam dolores commodi suscipit nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <h2>Semblanzas</h2>
+                        <p>Mira las semblanzas curriculares de los Ponentes del 9° Taller de Cooperación Procesal Internacional 2023</p>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8"  style="max-height: 600px!important; overflow: auto;">
                     <div class="row">
-                        <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="col-md-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
                                 <h4><a href="">Lorem Ipsum</a></h4>
@@ -375,7 +375,7 @@ if(!isset($_SESSION['myuser']))
                             </div>
                         </div>
 
-                        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                                 <div class="icon"><i class="bx bx-file"></i></div>
                                 <h4><a href="">Sed ut perspiciatis</a></h4>
@@ -383,7 +383,7 @@ if(!isset($_SESSION['myuser']))
                             </div>
                         </div>
 
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="icon"><i class="bx bx-tachometer"></i></div>
                                 <h4><a href="">Magni Dolores</a></h4>
@@ -391,7 +391,7 @@ if(!isset($_SESSION['myuser']))
                             </div>
                         </div>
 
-                        <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                                 <div class="icon"><i class="bx bx-world"></i></div>
                                 <h4><a href="">Nemo Enim</a></h4>
@@ -405,7 +405,7 @@ if(!isset($_SESSION['myuser']))
 
         </div>
     </section>
-    --><!-- End Services Section -->
+    <!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <!--
