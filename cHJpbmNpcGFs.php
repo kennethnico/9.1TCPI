@@ -209,7 +209,7 @@ if(!isset($_SESSION['myuser']))
     </section>
     -->
     <!-- End Why Us Section -->
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Historia Talleres ======= -->
     <section id="testimonials" class="testimonials section-bg">
         <div class="container">
             <div class="row">
@@ -337,7 +337,7 @@ if(!isset($_SESSION['myuser']))
     </section>
     <!-- End Testimonials Section -->
 
-    <!-- ======= Cta Section ======= -->
+    <!-- ======= Program Section ======= -->
     <section id="cta" class="cta">
         <div class="container">
 
@@ -346,7 +346,9 @@ if(!isset($_SESSION['myuser']))
                 <p> Conoce la programación de las ponencias y mesas de trabajo del 9° Taller de Cooperación Procesal Internacional.</p>
                 <!--<a class="cta-btn" href="#"> - </a>-->
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
-                <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+               <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
+               <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/7484ed46b7.html" style="border: 1px solid lightgray; width: 80%; height: 600px;"></iframe>
             </div>
 
         </div>
