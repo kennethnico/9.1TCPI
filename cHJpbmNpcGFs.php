@@ -345,6 +345,8 @@ if(!isset($_SESSION['myuser']))
                 <h3>PROGRAMA</h3>
                 <p> Conoce la programación de las ponencias y mesas de trabajo del 9° Taller de Cooperación Procesal Internacional.</p>
                 <!--<a class="cta-btn" href="#"> - </a>-->
+                <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
+                <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
             </div>
 
         </div>
