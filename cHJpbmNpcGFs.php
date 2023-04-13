@@ -230,7 +230,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo1TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo1TCPI.png" class="testimonial-img" alt="">
                                     <h3>1er Taller de Cooperación Procesal Internacional</h3>
                                     <h4></h4>
                                     <p>
@@ -243,7 +243,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo2TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo2TCPI.png" class="testimonial-img" alt="">
                                     <h3>2° Taller de Cooperación Procesal Internacional</h3>
                                     <h4></h4>
                                     <p>
@@ -256,7 +256,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo3TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo3TCPI.png" class="testimonial-img" alt="">
                                     <h3>3er Taller de Cooperación Procesal Internacional</h3>
                                     <h4></h4>
                                     <p>
@@ -269,7 +269,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo4TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo4TCPI.png" class="testimonial-img" alt="">
                                     <h3>4° Taller de Cooperación Procesal Internacional</h3>
                                     <h4></h4>
                                     <p>
@@ -282,7 +282,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo5TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo5TCPI.png" class="testimonial-img" alt="">
                                     <h3>5° Taller de Cooperación Procesal Internacional</h3>
                                     <h4></h4>
                                     <p>
@@ -295,7 +295,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo6TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo6TCPI.png" class="testimonial-img" alt="">
                                     <h3>6° Taller de Cooperación Procesal Internacional</h3>
                                     <h4>2020</h4>
                                     <p>
@@ -308,7 +308,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo7TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo7TCPI.png" class="testimonial-img" alt="">
                                     <h3>7° Taller de Cooperación Procesal Internacional</h3>
                                     <h4>2021</h4>
                                     <p>
@@ -321,7 +321,7 @@ if(!isset($_SESSION['myuser']))
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/images/talleres/Logo8TCPI.png" class="testimonial-img" alt="">
+                                    <img src="assets/logos/talleres/Logo8TCPI.png" class="testimonial-img" alt="">
                                     <h3>8° Taller de Cooperación Procesal Internacional</h3>
                                     <h4>2022</h4>
                                     <p>
