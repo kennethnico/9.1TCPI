@@ -88,23 +88,23 @@ if(!isset($_SESSION['myuser']))
             <div class="row">
 
                 <div class="col-lg-2 col-md-4 col-5 offset-1 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="./assets/images/logo_sre.png" class="img-fluid" alt="" style="width: 90%!important;">
+                    <img src="./assets/logos/logo_sre.png" class="img-fluid" alt="" style="width: 90%!important;">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-5 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="./assets/images/logo_conatrib.png" class="img-fluid" alt="">
+                    <img src="./assets/logos/logo_conatrib.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-5 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-                    <img src="./assets/images/logo_pjcdmx.png" class="img-fluid" alt="">
+                    <img src="./assets/logos/logo_pjcdmx.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-5 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-                    <img src="./assets/images/logo_cide.png" class="img-fluid" alt="" style="width: 25%!important;">
+                    <img src="./assets/logos/logo_cide.png" class="img-fluid" alt="" style="width: 25%!important;">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-5 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-                    <img src="./assets/images/logo_unam.png" class="img-fluid" alt="" style="width: 30%!important;">
+                    <img src="./assets/logos/logo_unam.png" class="img-fluid" alt="" style="width: 30%!important;">
                 </div>
             </div>
 
@@ -119,7 +119,7 @@ if(!isset($_SESSION['myuser']))
             <div class="row content">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                     <!--<h2>Eum ipsam laborum deleniti velitena</h2>-->
-                    <img src="./assets/images/logo_sec.png" alt="" width="400">
+                    <img src="./assets/logos/logo_sec.png" alt="" width="400">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
                     <h3>Objetivo del Taller</h3>
