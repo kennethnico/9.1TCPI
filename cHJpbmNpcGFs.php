@@ -84,17 +84,13 @@ if(!isset($_SESSION['myuser']))
     <!-- ======= Logos Section ======= -->
     <section id="clients" class="clients">
         <div class="container">
-
             <div class="row">
-
                 <div class="col-lg-2 col-md-4 col-5 offset-1 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
                     <img src="./assets/logos/logo_sre.png" class="img-fluid" alt="" style="width: 90%!important;">
                 </div>
-
                 <div class="col-lg-2 col-md-4 col-5 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
                     <img src="./assets/logos/logo_conatrib.png" class="img-fluid" alt="">
                 </div>
-
                 <div class="col-lg-2 col-md-4 col-5 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
                     <img src="./assets/logos/logo_pjcdmx.png" class="img-fluid" alt="">
                 </div>
