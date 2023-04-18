@@ -475,16 +475,16 @@
                         <div class="col-md-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon"><i class="fa fa-user"></i></div>
-                                <h4><a href="">Katerina V. Ossenova</a></h4>
+                                <h4>Katerina V. Ossenova</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
-                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal1">Ver semblanza</button>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal1">Ver semblanza</button>
                             </div>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                                 <div class="icon"><i class="fa fa-user"></i></div>
-                                <h4><a href="">Christine Darden Brennan</a></h4>
+                                <h4>Christine Darden Brennan</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal2">Ver semblanza</button>
                             </div>
@@ -493,7 +493,7 @@
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="icon"><i class="fa fa-user"></i></div>
-                                <h4><a href="">Christine Darden Brennan</a></h4>
+                                <h4>Liliana Oliva Bernal</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal3">Ver semblanza</button>
                             </div>
@@ -502,9 +502,17 @@
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                                 <div class="icon"><i class="fa fa-user"></i></div>
-                                <h4><a href="">Christine Darden Brennan</a></h4>
+                                <h4>Dra. María José Rodríguez Rocha</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal4">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Dr. Manuel Ferreira Catoira</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal5">Ver semblanza</button>
                             </div>
                         </div>
 
