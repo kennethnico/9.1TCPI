@@ -25,6 +25,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- Vendor CSS Files -->
     <link href="css/stylesMixed/aos/aos.css" rel="stylesheet">
     <link href="css/stylesMixed/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +40,34 @@
 </head>
 
 <body>
-
+<!-----------Modals begin-------------->
+<!-----**** Katerina V. Ossenova ****----->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal1TLongTitle">Katerina V. Ossenova</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-center">Abogada Litigante Senior<br>
+                    Oficina de Asistencia Judicial Internacional<br>
+                    Oficina de Litigios en el Extranjero Departamento de Justicia de EE. UU.</p>
+                <p>Katerina V. Ossenova es Abogada Litigante Senior y está a cargo de la Oficina de Asistencia Judicial Internacional (OIJA por sus siglas en inglés) dentro de la Oficina de Litigios en el Extranjero del Departamento de Justicia de los Estados Unidos. OIJA actúa como la Autoridad Central de los EE. UU. para tramitar las solicitudes entrantes de asistencia judicial internacional cuyo fin es notificar procesos u obtener pruebas en asuntos civiles o comerciales que tengan lugar fuera de los Estados Unidos.</p>
+                <p>OIJA es la Autoridad Central de los EE. UU. para la Convención de La Haya sobre la Notificación en el Extranjero de Documentos Judiciales y Extrajudiciales en Materia Civil o Comercial, el Convenio de La Haya relativo a la Obtención de Pruebas, y el Protocolo Adicional de la Convención Interamericana sobre los exhortos y las cartas rogatorias recibidas a través de canales diplomáticos.</p>
+                <p>La Lic. Ossenova también brinda orientación y capacitación a los abogados del gobierno de los Estados Unidos sobre cómo notificar el proceso u obtener evidencia en el extranjero para su uso en litigios en los Estados Unidos.</p>
+                <p>Anteriormente, la Lic. Ossenova fue abogada-asesora internacional durante más de seis años en el Programa de Desarrollo de Derecho Comercial (CLDP por sus siglas en inglés) de la Oficina del Asesor Jurídico General del Departamento de Comercio de los EE. UU. También administró los programas de asistencia técnica de CLDP en Europa del Este y Eurasia.</p>
+                <p>En el año 2008, la Lic. Ossenova recibió su Doctorado en Jurisprudencia de la Facultad de Derecho de la Universidad de Pittsburgh y se graduó con un Diploma en Derecho Internacional y Comparado.</p>
+                <p>Katerina Ossenova obtuvo una Licenciatura en Relaciones Internacionales e Historia de la Universidad de Virginia en el año 2003. Está autorizada para ejercer la abogacía en Virginia y Washington, D.C.</p>
+                <p>La Lic. Ossenova habla búlgaro con fluidez y tiene conocimientos prácticos de bosnio/croata/ serbio y macedonio.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container">
@@ -80,7 +108,6 @@
 </section><!-- End Hero -->
 
 <main id="main">
-
     <!-- ======= Logos Section ======= -->
     <section id="clients" class="clients">
         <div class="container">
@@ -108,7 +135,6 @@
 
         </div>
     </section><!-- End Clients Section -->
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container">
@@ -134,7 +160,6 @@
             </div>
         </div>
     </section><!-- End About Section -->
-
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
         <div class="container">
@@ -159,7 +184,6 @@
             </div>
         </div>
     </section><!-- End Counts Section -->
-
     <!-- ======= Why Us Section ======= -->
     <!--
     <section id="why-us" class="why-us">
@@ -335,12 +359,10 @@
 
         </div>
     </section>
-    <!-- End Testimonials Section -->
-
+    <!-- Fin Historia Talleres -->
     <!-- ======= Program Section ======= -->
     <section id="cta" class="cta">
         <div class="container">
-
             <div class="text-center" data-aos="zoom-in">
                 <h3>PROGRAMA</h3>
                 <p> Conoce la programación de las ponencias y mesas de trabajo del 9° Taller de Cooperación Procesal Internacional.</p>
@@ -353,9 +375,7 @@
 
         </div>
     </section><!-- End Cta Section -->
-
     <!-- ======= Services Section ======= -->
-
     <section id="services" class="services section-bg">
         <div class="container">
             <div class="row">
@@ -370,8 +390,8 @@
                         <div class="col-md-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                                <h4><a href="">Lorem Ipsum</a></h4>
-                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                <h4><a href="">Katerina V. Ossenova</a></h4>
+                                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal1">Ver semblanza</button>
                             </div>
                         </div>
 
@@ -886,6 +906,10 @@
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+<!-- JQUery y Boostrap -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<!-- Vendor JS Files -->
 <!-- Vendor JS Files -->
 <script src="css/stylesMixed/purecounter/purecounter_vanilla.js"></script>
 <script src="css/stylesMixed/aos/aos.js"></script>
