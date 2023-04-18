@@ -56,7 +56,7 @@
                     <li><a class="nav-link scrollto" href="#about">Antecedentes</a></li>
                     <li><a class="nav-link scrollto " href="#cta">Programa</a></li>
                     <li><a class="nav-link scrollto" href="#team">Semblanzas</a></li>
-                    <li><a class="getstarted scrollto" href="#about">Comenzar</a></li>
+                    <li><a class="getstarted scrollto" href="./partials/outt.php">Salir</a></li>
                     <!--
                     <li><a class="nav-link scrollto" href="#services">Talleres</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
