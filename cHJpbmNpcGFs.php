@@ -208,7 +208,7 @@
                     <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
                     <li><a class="nav-link scrollto" href="#about">Antecedentes</a></li>
                     <li><a class="nav-link scrollto " href="#cta">Programa</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Semblanzas</a></li>
+                    <li><a class="nav-link scrollto" href="#semblanzas">Semblanzas</a></li>
                     <li><a class="getstarted scrollto" href="./partials/outt.php"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Salir</a></li>
                     <!--
                     <li><a class="nav-link scrollto" href="#services">Talleres</a></li>
@@ -500,8 +500,8 @@
 
         </div>
     </section><!-- End Cta Section -->
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <!-- ======= Semblanzas Section ======= -->
+    <section id="semblanzas" class="services section-bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
