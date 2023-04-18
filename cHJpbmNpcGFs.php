@@ -152,6 +152,46 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Maxwel Aurora Flores Rico ****----->
+<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal6LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Maxwel Aurora Flores Rico</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Es Licenciada en Derecho por la Universidad Nacional Autónoma de México, en donde también cursó un Diplomado en Derecho Corporativo.</p>
+                <p class="text-justify">Su experiencia laboral inició en la Secretaría de Relaciones Exteriores, en donde actualmente se desempeña como Subdirectora de Pensiones Alimenticias y Adopciones Internacionales en la Coordinación de Derecho de Familia de la Dirección General de Protección Consular y Planeación Estratégica, instrumentando compromisos internacionales en materia de alimentos y adopciones firmados por el gobierno mexicano.</p>
+                <p class="text-justify">Destaca en su ejercicio profesional haber sido Subdirectora de Capacitación en la División Científica de la Policía Federal. De igual forma, se desempeñó como Subgerente en el Área de Responsabilidades y Quejas ante el Órgano Interno de Control en la Lotería Nacional para la Asistencia Pública y colaboró como asesora en la Asamblea Legislativa del Distrito Federal durante la V Legislatura.</p>
+                <p class="text-justify">Cuenta con estudios de Derecho Internacional Privado en la Academia de La Haya, Países Bajos. Participó como integrante de la Delegación mexicana en dos reuniones de la Conferencia de La Haya sobre Derecho Internacional Privado para el estudio del Convenio sobre el cobro internacional de alimentos con respecto a los menores y otras formas de manutención de la familia, así como en la Reunión de las Américas: Ejecución Internacional de Pensiones Alimenticias para Menores, en Orlando, Florida.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Arnaldo Silveira ****----->
+<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal7LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Arnaldo Silveira</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Arnaldo Silveira es Coordinador-General de Cooperación Jurídica Internacional em Materia Civil del del Departamento de Recuperación de Activos y Cooperación Jurídica Internacional (DRCI) del Ministerio de Justicia y Seguridad Pública, la Autoridad Central de Brasil.</p>
+                <p class="text-justify">Funcionario público federal, Especialista en Políticas Públicas y Gestión Gubernamental, licenciado en Derecho por la AEUDF (Brasília) y Especialista em Relaciones Internacionales por la UnB (Brasília). Cursó el Minerva Program en la George Washington University y su Programa Adicional.</p>
+                <p class="text-justify">Trabajó en el area de comercio exterior por 14 años y después en la Unidad de Inteligencia Financiera.</p>
+                <p class="text-justify">Trabajando en la Autoridad Central desde el 2004, ejerció diversas funciones, como Asesor de Tratados y Foros y Director-Adjunto. Silveira es miembro de diversos Grupos de Trabajo de la Conferência de La Haya, y Co-Chair de uno de ellos, así como Punto de Contacto para redes de cooperación. Actuó como avaliador por WGB/OCDE, GAFI, GAFILAT y UNODC, participó de negociaciones de tratados bilaterales y multilaterales y participó en actividades del G20, OEA, MERCOSUR, CPLP, Egmont Group y COMJIB.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
@@ -513,6 +553,22 @@
                                 <h4>Dr. Manuel Ferreira Catoira</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal5">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Maxwel Aurora Flores Rico</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal6">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Arnaldo Silveira</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal7">Ver semblanza</button>
                             </div>
                         </div>
 
