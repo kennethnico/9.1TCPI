@@ -6,6 +6,10 @@
   --second-color: #4057a3;
   --third-color: #bc955c;
 }
+.bg-primary-color{
+  background-color: var(--third-color)!important;
+  color: white!important;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/

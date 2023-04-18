@@ -35,6 +35,8 @@
     <link href="css/stylesMixed/remixicon/remixicon.css" rel="stylesheet">
     <link href="css/stylesMixed/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+    <!-- icons fontawesome -->
+    <script src="https://kit.fontawesome.com/f40904d23d.js" crossorigin="anonymous"></script>
     <!-- Main CSS File -->
     <link href="css/stylesMixed/style.css" rel="stylesheet">
 </head>
@@ -43,25 +45,108 @@
 <!-----------Modals begin-------------->
 <!-----**** Katerina V. Ossenova ****----->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary-color">
-                <h5 class="modal-title font-white" id="modal1TLongTitle">Katerina V. Ossenova</h5>
+                <h5 class="modal-title font-white" id="modal1TLongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Katerina V. Ossenova</h5>
                 <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body text-center">
-                <p class="text-center">Abogada Litigante Senior<br>
+                <p class="text-center fw-bold">Abogada Litigante Senior<br>
                     Oficina de Asistencia Judicial Internacional<br>
                     Oficina de Litigios en el Extranjero Departamento de Justicia de EE. UU.</p>
-                <p>Katerina V. Ossenova es Abogada Litigante Senior y está a cargo de la Oficina de Asistencia Judicial Internacional (OIJA por sus siglas en inglés) dentro de la Oficina de Litigios en el Extranjero del Departamento de Justicia de los Estados Unidos. OIJA actúa como la Autoridad Central de los EE. UU. para tramitar las solicitudes entrantes de asistencia judicial internacional cuyo fin es notificar procesos u obtener pruebas en asuntos civiles o comerciales que tengan lugar fuera de los Estados Unidos.</p>
-                <p>OIJA es la Autoridad Central de los EE. UU. para la Convención de La Haya sobre la Notificación en el Extranjero de Documentos Judiciales y Extrajudiciales en Materia Civil o Comercial, el Convenio de La Haya relativo a la Obtención de Pruebas, y el Protocolo Adicional de la Convención Interamericana sobre los exhortos y las cartas rogatorias recibidas a través de canales diplomáticos.</p>
-                <p>La Lic. Ossenova también brinda orientación y capacitación a los abogados del gobierno de los Estados Unidos sobre cómo notificar el proceso u obtener evidencia en el extranjero para su uso en litigios en los Estados Unidos.</p>
-                <p>Anteriormente, la Lic. Ossenova fue abogada-asesora internacional durante más de seis años en el Programa de Desarrollo de Derecho Comercial (CLDP por sus siglas en inglés) de la Oficina del Asesor Jurídico General del Departamento de Comercio de los EE. UU. También administró los programas de asistencia técnica de CLDP en Europa del Este y Eurasia.</p>
-                <p>En el año 2008, la Lic. Ossenova recibió su Doctorado en Jurisprudencia de la Facultad de Derecho de la Universidad de Pittsburgh y se graduó con un Diploma en Derecho Internacional y Comparado.</p>
-                <p>Katerina Ossenova obtuvo una Licenciatura en Relaciones Internacionales e Historia de la Universidad de Virginia en el año 2003. Está autorizada para ejercer la abogacía en Virginia y Washington, D.C.</p>
-                <p>La Lic. Ossenova habla búlgaro con fluidez y tiene conocimientos prácticos de bosnio/croata/ serbio y macedonio.</p>
+                <p class="text-justify">Katerina V. Ossenova es Abogada Litigante Senior y está a cargo de la Oficina de Asistencia Judicial Internacional (OIJA por sus siglas en inglés) dentro de la Oficina de Litigios en el Extranjero del Departamento de Justicia de los Estados Unidos. OIJA actúa como la Autoridad Central de los EE. UU. para tramitar las solicitudes entrantes de asistencia judicial internacional cuyo fin es notificar procesos u obtener pruebas en asuntos civiles o comerciales que tengan lugar fuera de los Estados Unidos.</p>
+                <p class="text-justify">OIJA es la Autoridad Central de los EE. UU. para la Convención de La Haya sobre la Notificación en el Extranjero de Documentos Judiciales y Extrajudiciales en Materia Civil o Comercial, el Convenio de La Haya relativo a la Obtención de Pruebas, y el Protocolo Adicional de la Convención Interamericana sobre los exhortos y las cartas rogatorias recibidas a través de canales diplomáticos.</p>
+                <p class="text-justify">La Lic. Ossenova también brinda orientación y capacitación a los abogados del gobierno de los Estados Unidos sobre cómo notificar el proceso u obtener evidencia en el extranjero para su uso en litigios en los Estados Unidos.</p>
+                <p class="text-justify">Anteriormente, la Lic. Ossenova fue abogada-asesora internacional durante más de seis años en el Programa de Desarrollo de Derecho Comercial (CLDP por sus siglas en inglés) de la Oficina del Asesor Jurídico General del Departamento de Comercio de los EE. UU. También administró los programas de asistencia técnica de CLDP en Europa del Este y Eurasia.</p>
+                <p class="text-justify">En el año 2008, la Lic. Ossenova recibió su Doctorado en Jurisprudencia de la Facultad de Derecho de la Universidad de Pittsburgh y se graduó con un Diploma en Derecho Internacional y Comparado.</p>
+                <p class="text-justify">Katerina Ossenova obtuvo una Licenciatura en Relaciones Internacionales e Historia de la Universidad de Virginia en el año 2003. Está autorizada para ejercer la abogacía en Virginia y Washington, D.C.</p>
+                <p class="text-justify">La Lic. Ossenova habla búlgaro con fluidez y tiene conocimientos prácticos de bosnio/croata/ serbio y macedonio.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Christine Darden Brennan ****----->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal2LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Christine Darden Brennan</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Christine Brennan es actualmente la Abogada a Cargo de la Oficina de Litigios Extranjeros para Latinoamérica (OFL por sus siglas en inglés) del Departamento de Justicia de los Estados Unidos. Su oficina está ubicada en la Embajada de los Estados Unidos en la Ciudad de Panamá.</p>
+                <p class="text-justify">OFL representa a los Estados Unidos en cortes de justicia y tribunales extranjeros cuando los Estados Unidos es parte de un caso o tiene un interés. OFL también representa a ciertas personas que son demandadas o imputadas penalmente en su capacidad oficial en jurisdicciones extranjeras.</p>
+                <p class="text-justify">La Licenciada Brennan comenzó su carrera en el Departamento de Justicia en el año 2012, en la Oficina de Litigios Europeos de la Embajada de los Estados Unidos en Londres. Más tarde, se trasladó a la sede de OFL en Washington, D.C., donde se enfocó principalmente en casos en América Latina e Israel, así como en asuntos de seguridad nacional. En el año 2021, abrió la primera oficina regional de OFL fuera de Europa, la Oficina de Litigios Latinoamericanos en la Ciudad de Panamá.</p>
+                <p class="text-justify">Antes de trabajar en el Departamento de Justicia, Christine Brennan trabajó en un bufete de abogados internacional en Washington, D.C. y se graduó con honores en la Facultad de Derecho de la Universidad de Georgetown. Tuvo una carrera anterior como periodista en CNN, donde formó parte del equipo que lanzó CNN en Español y luego cubrió la Casa Blanca para CNN América.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Liliana Oliva Bernal ****----->
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal3LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Liliana Oliva Bernal</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Liliana Oliva Bernal es abogada por la Universidad Panamericana (Aguascalientes, México) y maestra en derecho internacional público por la London School of Economics and Political Science (Londres, Reino Unido). Es miembro de la rama diplomático consular del Servicio Exterior Mexicano.</p>
+                <p class="text-justify">Cuenta con más de 15 años de experiencia en diversas disciplinas del derecho público, incluyendo derecho constitucional, derecho administrativo y derecho internacional.</p>
+                <p class="text-justify">Actualmente es Directora de litigios I en la Consultoría Jurídica de la Secretaría de Relaciones Exteriores donde, entre otras cuestiones, tiene a su cargo la coordinación de la defensa de México y de las Representaciones de México en el Exterior en litigios ante tribunales extranjeros y la emisión de todo tipo de dictámenes en materia de privilegios e inmunidades.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Dra. María José Rodríguez Rocha ****----->
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal4LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Dra. María José Rodríguez Rocha</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Dra. en Derecho y Ciencias Sociales - Facultad de Derecho, Universidad de la República (UdelaR)</p>
+                <p class="text-justify">Asesora Legal de la Autoridad Central de Cooperación judicial internacional del Uruguay. (Ministerio de Educación y Cultura)</p>
+                <p class="text-justify">Delegada uruguaya por la Autoridad Central del Uruguay ante OEA, MERCOSUR, La Conferencia de La Haya de Derecho Internacional Privado y la Red Iberoamericana de Cooperación Jurídica (IBERRED).</p>
+                <p class="text-justify">Docente universitaria de Derecho Internacional Privado en cursos de grado en la Universidad de la República (UdelaR).</p>
+                <p class="text-justify">Miembro del Instituto Uruguayo de Derecho Internacional Privado e Integrante del Grupo de Jurisprudencia del mismo.</p>
+                <p class="text-start">Contacto<br>Teléfono: (+598) 094 820 743 <br>Email: marirodriguez@hotmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Dr. Manuel Ferreira Catoira ****----->
+<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal5LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Dr. Manuel Ferreira Catoira</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Dr. en Derecho y Ciencias Sociales - Facultad de Derecho, Universidad de la República (UdelaR)</p>
+                <p class="text-justify">Asesor Legal de la Autoridad Central de Cooperación judicial internacional del Uruguay. (Ministerio de Educación y Cultura)</p>
+                <p class="text-justify">Delegado uruguayo por la Autoridad Central del Uruguay ante OEA, MERCOSUR, La Conferencia de La Haya de Derecho Internacional Privado y la Red Iberoamericana de Cooperación Jurídica (IBERRED).</p>
+                <p class="text-justify">Docente universitario de Derecho Internacional Privado en cursos de grado en la Universidad de la República (UdelaR).</p>
+                <p class="text-justify">Miembro del Instituto Uruguayo de Derecho Internacional Privado e Integrante del Grupo de Jurisprudencia del mismo.</p>
+                <p class="text-start">Contacto<br>Teléfono: (+598) 098 888 296 <br>Email: manuelferreiracatoira@gmail.com</p>
             </div>
         </div>
     </div>
@@ -84,7 +169,7 @@
                     <li><a class="nav-link scrollto" href="#about">Antecedentes</a></li>
                     <li><a class="nav-link scrollto " href="#cta">Programa</a></li>
                     <li><a class="nav-link scrollto" href="#team">Semblanzas</a></li>
-                    <li><a class="getstarted scrollto" href="./partials/outt.php">Salir</a></li>
+                    <li><a class="getstarted scrollto" href="./partials/outt.php"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Salir</a></li>
                     <!--
                     <li><a class="nav-link scrollto" href="#services">Talleres</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -389,33 +474,37 @@
                     <div class="row">
                         <div class="col-md-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                                <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4><a href="">Katerina V. Ossenova</a></h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modal1">Ver semblanza</button>
                             </div>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Sed ut perspiciatis</a></h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4><a href="">Christine Darden Brennan</a></h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal2">Ver semblanza</button>
                             </div>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                                <h4><a href="">Magni Dolores</a></h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4><a href="">Christine Darden Brennan</a></h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal3">Ver semblanza</button>
                             </div>
                         </div>
 
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                <div class="icon"><i class="bx bx-world"></i></div>
-                                <h4><a href="">Nemo Enim</a></h4>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4><a href="">Christine Darden Brennan</a></h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal4">Ver semblanza</button>
                             </div>
                         </div>
 
