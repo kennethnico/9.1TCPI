@@ -187,7 +187,7 @@ if(!isset($_SESSION['myuser']))
 <section id="hero" class="d-flex align-items-center">
     <div class="container text-start position-relative" data-aos="fade-in" data-aos-delay="200">
         <h1>9° Taller de Cooperación<br>Procesal Internacional</h1>
-        <h2>19 & 20 de abril, Ciudad de México</h2>
+        <h2>31 de mayo, 1 y 2 de junio, Ciudad de México</h2>
         <a href="#about" class="btn-get-started scrollto">Comenzar</a>
     </div>
 </section><!-- End Hero -->
