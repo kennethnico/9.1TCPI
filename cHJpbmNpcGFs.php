@@ -503,6 +503,7 @@
                     <li><a class="nav-link scrollto" href="#about">Antecedentes</a></li>
                     <li><a class="nav-link scrollto " href="#cta">Programa</a></li>
                     <li><a class="nav-link scrollto" href="#semblanzas">Semblanzas</a></li>
+                    <li><a class="nav-link scrollto" href="#ponencias">Ponencias</a></li>
                     <li><a class="getstarted scrollto" href="./partials/outt.php"><i class="fa fa-sign-out"></i>&nbsp;&nbsp;Salir</a></li>
                     <!--
                     <li><a class="nav-link scrollto" href="#services">Talleres</a></li>
@@ -1215,7 +1216,7 @@
 
     <!-- ======= Team Section ======= -->
 
-    <section id="team" class="team">
+    <section id="ponencias" class="team">
         <div class="container">
             <div class="text-center" data-aos="zoom-in">
                 <!--<h3></h3>-->
@@ -1240,7 +1241,7 @@
                                                 <div class="collapse" id="collapseExample">
                                                     <div class="card card-body">
                                                         <!-- 1. Video Wrapper Container -->
-                                                        <div class="embed-youtube" data-video-id="jcyq_Np5qPk">
+                                                        <div class="embed-youtube" data-video-id="###">
                                                             <!-- 2. The preview button that will contain the Play icon -->
                                                             <div class="embed-youtube-play"></div>
                                                         </div>
@@ -1255,6 +1256,154 @@
                     </div>
                 </div>
                 <!----Fin Inauguración---->
+                <!-------Begin Ponencias------>
+                <div class="row wow fadeInRight">
+                    <div class="col-12">
+                        <nav>
+                            <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                                <a class="nav-link active font-primary-color" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="true">31 de Mayo</a>
+                                <a class="nav-link font-primary-color" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="false">1 de Junio</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="accordion" id="miercoles31">
+                                            <!---Plantilla--->
+                                            <!--
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="headingOne">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
+                                                            Ponencia 1
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        Ponente: <br>
+                                                                        <span class="fst-italic"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur excepturi laborum modi officia ratione rerum tempora ullam vel? Beatae blanditiis, et modi quia sit voluptatem! Animi facere modi neque officiis?</span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            -->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="headingOne">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
+                                                            “Cooperación Judicial entre Estados Unidos y México de conformidad con la Convención de la Haya sobre pruebas”
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                       <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Katerina V. Ossenova</span><br>
+                                                                        <span class="fst-italic"><span>Oficina de Asistencia Judicial Internacional, División Civil, Departamento de Justicia de los Estados Unidos de América.</span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading2">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2" style="text-decoration: none;">
+                                                            “Cooperación Judicial entre Estados Unidos y México de conformidad con la Convención de la Haya sobre pruebas”
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                       <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Katerina V. Ossenova</span><br>
+                                                                        <span class="fst-italic"><span>Oficina de Asistencia Judicial Internacional, División Civil, Departamento de Justicia de los Estados Unidos de América.</span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="accordion" id="jueves1">
+                                            <!----Clausura---->
+                                            <div class="row wow fadeInUp">
+                                                <div class="col-12">
+                                                    <div class="tab-content" id="nav-tabContent">
+                                                        <div class="" id="">
+                                                            <ul class="list-group">
+                                                                <li class="list-group-item text-center">
+                                                                    <div class="jumbotron jumbotron-fluid">
+                                                                        <div class="container">
+                                                                            <h1 class="display-6">Mesas de Trabajo</h1>
+                                                                            <p class="lead font-primary-color">Sigue la transmisión en vivo el<br> 1° de Junio de 2023</p>
+                                                                            <button type="button" class="btn btn-secondary btn-sm mb-20 bg-primary-color" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" disabled>Ver transmisión</button>
+                                                                            <div class="collapse" id="collapseExample1">
+                                                                                <div class="card card-body">
+                                                                                    <!--Agradecemos tu paciencia, pronto se publicará la transmisión de la Clausura...
+                                                                                    <br> En espera del término de la Mesa de Análisis 4
+                                                                                    <br> <small>No olvides registrar tu asistencia en el apartado de Constancias</small>-->
+                                                                                    <div class="embed-youtube" data-video-id="####">
+                                                                                        <div class="embed-youtube-play"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!----Fin Clausura---->
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-------End Ponencias------>
             </div>
         </div>
     </section>

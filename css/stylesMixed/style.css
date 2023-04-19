@@ -10,6 +10,18 @@
   background-color: var(--third-color)!important;
   color: white!important;
 }
+.bg-second-color{
+  background-color: var(--second-color)!important;
+  color: white!important;
+}
+.bg-third-color{
+  background-color: var(--main-color)!important;
+  color: white!important;
+}
+.bg-gray-color{
+  background-color: #d9d7d7 !important;
+  color: white!important;
+}
 .font-color-main{
   color: var(--main-color) !important;
 }
@@ -19,6 +31,18 @@
 .font-color-third{
   color: var(--third-color) !important;
 }
+.font-color-white{
+  color: white !important;
+}
+.font-ponencia{
+  font-size: 1.2rem!important;
+  color: var(--third-color) !important;
+}
+.font-ponentes{
+  font-size: 1.2rem!important;
+  color: var(--second-color) !important;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
