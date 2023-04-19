@@ -254,7 +254,7 @@
     </div>
 </div>
 <!----------------------------------->
-<!-----**** Juez Teofilo Abdo Kuri ****----->
+<!-----**** Mtro. Teofilo Abdo Kuri ****----->
 <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
@@ -762,6 +762,38 @@
                                 <h4>Dra. Irene López Faugier</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal10">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Mtro. Teofilo Abdo Kuri</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal11">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Andrés Camilo Hernández Ramírez</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal12">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Mtra. Anameli Dávalos Vázquez</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal13">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Mag. Oscar Gregorio Cervera Rivero</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal14">Ver semblanza</button>
                             </div>
                         </div>
 
