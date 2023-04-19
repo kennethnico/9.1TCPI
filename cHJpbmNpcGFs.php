@@ -328,6 +328,39 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Mag. Oscar Gregorio Cervera Rivero ****----->
+<div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal14" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal14LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mag. Oscar Gregorio Cervera Rivero</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Nombrado Magistrado del Tribunal Superior de Justicia del Distrito Federal en Agosto del 2000.</p>
+                <p class="text-justify">Trayectoria en el TSJDF: Magistrado de la Tercera Sala Civil del 2000 al 2004 y a partir de 2005 Magistrado de la Segunda Sala Familiar.</p>
+                <p class="text-justify">Ratificado por la Asamblea Legislativa del Distrito Federal el 18 de Agosto del 2006.</p>
+                <p class="text-justify fw-bold">Otros:</p>
+                <ul>
+                    <li>Juez de Enlace Mexicano en Materia de Restitución Internacional ante la Hague Conference on Private International Law (Conferencia de La Haya en Derecho Internacional Privado).</li>
+                    <li>Miembro de la Asociación Internacional de Jueces en Materia de Familia.</li>
+                    <li>Impulsor e integrante de la Red Mexicana de Cooperación Judicial para la protección de la Niñez, fundada en 2010.</li>
+                    <li>Participante en la 5a (2006) y 6a (2011 y 2012) reuniones de la Comisión Especial para la evaluación del funcionamiento de la Conferencia de La Haya.</li>
+                    <li>Integrante del Grupo de Trabajo para la elaboración de una Guía de “Buenas Prácticas, respecto al artículo 13, primer párrafo, inciso b), de la Convención sobre Aspectos Civiles de la Sustracción Internacional de Menores” (Excepción de Grave Riesgo).</li>
+                    <li>Integrante de la Delegación mexicana que participó en la Reunión de la Red Internacional de Jueces de la Conferencia de La Haya, especializados en asuntos de Familia, celebrada en Cumberland Lodge, en Windsor Great Park, Reino Unido, llevada a cabo del 16 al 20 de julio del 2013.</li>
+                    <li>Integrante de la Delegación mexicana ante la APEC en los años (2013 y 2015), llevada a cabo en Seúl Corea del Sur, para la evaluación de la eficacia de los sistemas jurídicos de los países afiliados.</li>
+                    <li>Integrante de la Delegación Mexicana en las reuniones de trabajo ante la ONU para la Sustentación del IV y V Informes consolidados sobre el cumplimiento en nuestro País, de la Convención sobre los Derechos del Niño, celebrada los días 18 y 20 de Mayo del año 2015, en Ginebra, Suiza.</li>
+                    <li>Doctor en Derecho y además actualmente, candidato a doctor en Administración y Gobierno del Poder Judicial, Instituto de Investigaciones Jurídicas de la UNAM e Instituto de Estudios Judiciales del TSJDF.</li>
+                    <li>Miembro Numerario de la AMEDIP, Academia Mexicana de Derecho Internacional Privado.</li>
+                </ul>
+                <p class="text-justify"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
