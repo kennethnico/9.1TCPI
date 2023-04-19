@@ -81,6 +81,14 @@
             <div class="text-center" data-aos="zoom-in"><br><br>
                 <h3>PROGRAMA</h3>
                 <p> Conoce la programación de las ponencias y mesas de trabajo del 9° Taller de Cooperación Procesal Internacional.</p>
+                <p> El contenido estará disponible el 31 de mayo de 2023 a las 00:00 hrs. Horario central GTM-6 </p>
+                <p>Si desea asistir de manera presencial a las mesas de trabajo del 1° de Junio, envía un email con los siguientes datos:</p>
+                <ul>
+                    <li>Nombre completo</li>
+                    <li>Dependencia</li>
+                    <li>Número telefónico</li>
+                </ul>
+                <p>Al correo: ejemplo@ejemplo.com</p>
                 <!--<a class="cta-btn" href="#"> - </a>-->
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
                 <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
