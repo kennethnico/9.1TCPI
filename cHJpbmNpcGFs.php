@@ -689,7 +689,6 @@
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal1">Ver semblanza</button>
                             </div>
                         </div>
-
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                                 <div class="icon"><i class="fa fa-user"></i></div>
@@ -698,7 +697,6 @@
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal2">Ver semblanza</button>
                             </div>
                         </div>
-
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="icon"><i class="fa fa-user"></i></div>
@@ -707,7 +705,6 @@
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal3">Ver semblanza</button>
                             </div>
                         </div>
-
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                                 <div class="icon"><i class="fa fa-user"></i></div>
@@ -717,7 +714,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Dr. Manuel Ferreira Catoira</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -725,7 +722,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Maxwel Aurora Flores Rico</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -733,7 +730,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Arnaldo Silveira</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -741,7 +738,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Claudia Sierra Martínez</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -749,7 +746,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Martha Angélica Álvarez Rendón</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -757,7 +754,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Dra. Irene López Faugier</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -765,7 +762,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Mtro. Teofilo Abdo Kuri</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -773,7 +770,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Andrés Camilo Hernández Ramírez</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -781,7 +778,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Mtra. Anameli Dávalos Vázquez</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
@@ -789,7 +786,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Mag. Oscar Gregorio Cervera Rivero</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
