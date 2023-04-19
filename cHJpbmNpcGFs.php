@@ -411,6 +411,28 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Dr. Andrés Linares Carranza ****----->
+<div class="modal fade" id="modal17" tabindex="-1" role="dialog" aria-labelledby="modal17" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal17LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Dr. Andrés Linares Carranza</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Consejero de la Judicatura de la Ciudad de México.</p>
+                <p class="text-justify">Nació en la Ciudad de México, Distrito Federal realizó sus estudios de Licenciatura en la Facultad de Derecho de la Universidad Nacional Autónoma de México, en donde también realizó la Especialidad de Derecho Privado y diversos cursos de actualización en materia Civil y de Amparo, realizó las Especialidades de Sistema Penitenciario y menores infractores, así como de Derechos Humanos y Victimología y la Maestría en Prevención del Delito y Sistemas Penitenciarios en el Instituto de Prevención del Delito y Estudios Penitenciarios, el Diplomado de Derecho Familiar en el Centro de Estudios Judiciales.</p>
+                <p class="text-justify">Es maestro de asignatura en la Facultad de Derecho de la Universidad Nacional Autónoma de México de Derecho Familiar y Teoría del Proceso, y maestro titular de Derecho Procesal Civil y Derecho Sucesorio, además de impartir clases en posgrado en materia de Derecho Probatorio y Procesal Familiar en la Máxima casa de estudios y en diversas universidades privadas.</p>
+                <p class="text-justify">Ha desempeñado los siguientes cargos: asesor jurídico de la policía auxiliar del Distrito Federal; Secretario de Acuerdos de Juzgado Mixto de Paz del Ramo Civil, Secretario de Acuerdos de Juzgado Familiar y Juez de lo Familiar del Tribunal Superior de Justicia del Distrito Federal, Director General del Ministerio Público en lo Civil y Familiar, Coordinador de Asuntos de Menores e incapaces y Director General del Ministerio Público de lo Familiar y todos estos cargos en la Procuraduría General de justicia del Distrito Federal hoy Fiscalía General de la Ciudad de México; Director de Asistencia Jurídica del Sistema Nacional para el Desarrollo Integral de la Familia, Secretario de Acuerdos del Juzgado Primero de Distrito en Materia Civil del Primer Circuito en el Distrito Federal, Secretario Proyectista de la Séptima Sala Civil del Tribunal Superior de Justicia del Distrito Federal, nuevamente se desempeño como Juez de lo Familiar, asimismo fue designado como miembro de la Red Nacional de Cooperación Judicial y Protección para la Niñez, teniendo el cargo de Secretario Técnico de la misma desde febrero del 2010 hasta el Abril del 2012; asimismo es especialista en Restitución Internacional. Fue designado por la Asamblea Legislativa del Distrito Federal como Magistrado del Tribunal Superior de Justicia del Distrito Federal a partir del 8 de noviembre del año 2011, Magistrado integrante de la Quinta Sala Familiar del Tribunal Superior de Justicia de la Ciudad de México.</p>
+                <p class="text-justify">Actualmente se desempeña como Consejero de la Ponencia 1 del Consejo de la Judicatura de la Ciudad de México.</p>
+                <p class="text-justify">Correo electrónico: andres.linares@cjcdmx.gob.mx</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
