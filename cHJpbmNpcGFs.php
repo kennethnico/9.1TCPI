@@ -361,6 +361,34 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Mag. Numerario Alberto Pérez Gasca ****----->
+<div class="modal fade" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modal15" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal15LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mag. Numerario Alberto Pérez Gasca</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Es Licenciado en Derecho por la Universidad Veracruzana (UV), egresado de la generación 1984-1988, diplomado en Administración Pública en el Instituto Nacional de Administración Pública (INAP) en 1993, postgraduado por la Universidad Panamericana (UP) en la especialidad de Derecho Administrativo, generación 2004 y Maestro de Derecho Procesal Constitucional por la Universidad Tecnológica Latinoamericana en línea (UTEL) generación 2018-2019.</p>
+                <p class="text-justify">En 1987, inició su carrera profesional como agente del ministerio público municipal. Al concluir los estudios de licenciatura, fue designado por el Procurador General de Justicia del Estado de Veracruz agente del ministerio público del fuero común adscrito al Juzgado Mixto Menor en esta ciudad de San Andrés Tuxtla.</p>
+                <p class="text-justify">En 1991, mediante curso de oposición, ingresó a la Procuraduría General de la República (PGR) como agente del ministerio público federal en materia de estupefacientes y psicotrópicos.</p>
+                <p class="text-justify">Con las reformas Constitucionales de 1992, se incorporó al sector agrario como servidor público de carrera, en donde ha realizado diversas funciones:</p>
+                <p class="text-justify">En la Procuraduría Agraria (PA) se desempeñó como jefe de departamento jurídico en Xalapa, Veracruz; subdelegado jurídico en Tuxtla Gutiérrez, Chiapas; delegado estatal en Tlaxcala y Oaxaca y director general Jurídico y de Representación Agraria.</p>
+                <p class="text-justify">En el Registro Agrario Nacional (RAN) fue director de Recursos Humanos y Materiales.</p>
+                <p class="text-justify">En la extinta Secretaría de la Reforma Agraria (SRA) hoy Secretaría de Desarrollo Agrario, Territorial y Urbano (SEDATU) fue Consejero Agrario Titular del Presidente de le República en diversos estados de la República. Fue director de Cumplimiento de Ejecutorias, Director General de Asuntos Jurídicos y Jefe de Unidad de Asuntos Jurídicos. Estuvo al frente de los aspectos jurídicos de esa secretaría de estado durante ocho años, el período más largo en que un servidor público haya ejercido tal responsabilidad, hasta el momento.</p>
+                <p class="text-justify">En la actividad docente, ha impartido las cátedras de Derecho Agrario y Derecho Procesal Agrario en la Facultad de Derecho de la Universidad Nacional Autónoma de México (Ciudad Universitaria).</p>
+                <p class="text-justify">Ha impartido cursos y conferencias relacionadas con el Derecho Agrario en diversos congresos, coloquios, foros nacionales, universidades públicas y privadas.</p>
+                <p class="text-justify">Tuvo el alto honor de representar a la Secretaría de Reforma Agraria en las delegaciones del Gobierno Mexicano ante la Comisión Interamericana de Derechos Humanos, en Washington, D.C., en marzo de 2011; en el coloquio organizado por el Instituto Internacional por la Unificación del Derecho Privado (UNIDROIT), celebrado en la ciudad de Roma, Italia, en noviembre de 2011; en el Seminario sobre la dinámica del mercado de la tierra en América Latina y El Caribe, auspiciado por la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), realizado en Santiago de Chile, en 2011 y en la sustentación de los 16º y 17º informes consolidados, presentados ante la Convención Internacional sobre la eliminación de todas las formas de discriminación racial de la Organización de las Naciones Unidas, en febrero de 2012, en la ciudad de Ginebra, Suiza.</p>
+                <p class="text-justify">Fue propuesto por el presidente de los Estados Unidos Mexicanos para ser designado magistrado unitario agrario, rindiendo protesta del encargo el 29 de mayo de 2012 ante el Senado de la República, fue titular de los Distritos 54, 31 y 40, los Distritos 31 y 40 fueron atendidos de manera simultánea y de manera óptima, fue ratificado en el mes de diciembre de 2020.</p>
+                <p class="text-justify">Fue propuesto por el presidente de la República para ocupar el cargo de Magistrado Numerario del Tribunal Superior Agrario, siendo designado en este encargo por el Senado Mexicano en el mes de mayo de 2021.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
@@ -717,7 +745,7 @@
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Dr. Manuel Ferreira Catoira</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal5">Ver semblanza</button>
                             </div>
                         </div>
@@ -733,7 +761,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Arnaldo Silveira</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal7">Ver semblanza</button>
                             </div>
                         </div>
@@ -741,7 +769,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Claudia Sierra Martínez</h4>
-                                <p>Da clic en el botón para consultar la semblanza de la ponente: </p><br><br>
+                                <p>Da clic en el botón para consultar la semblanza de la ponente: </p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal8">Ver semblanza</button>
                             </div>
                         </div>
