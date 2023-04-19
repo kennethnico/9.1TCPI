@@ -740,6 +740,30 @@
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal7">Ver semblanza</button>
                             </div>
                         </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Claudia Sierra Martínez</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal8">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Martha Angélica Álvarez Rendón</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal9">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Dra. Irene López Faugier</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal10">Ver semblanza</button>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
