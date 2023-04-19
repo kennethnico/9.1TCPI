@@ -1,11 +1,11 @@
 <?php
-#session_start();
-#require 'partials/base.php';
-#require 'partials/expires.php';
-#if(!isset($_SESSION['myuser']))
-#{
-#    echo'<script>window.location.href="index.html"</script>';
-#}
+session_start();
+require 'partials/base.php';
+require 'partials/expires.php';
+if(!isset($_SESSION['myuser']))
+{
+    echo'<script>window.location.href="index.html"</script>';
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -428,6 +428,34 @@
                 <p class="text-justify">Ha desempeñado los siguientes cargos: asesor jurídico de la policía auxiliar del Distrito Federal; Secretario de Acuerdos de Juzgado Mixto de Paz del Ramo Civil, Secretario de Acuerdos de Juzgado Familiar y Juez de lo Familiar del Tribunal Superior de Justicia del Distrito Federal, Director General del Ministerio Público en lo Civil y Familiar, Coordinador de Asuntos de Menores e incapaces y Director General del Ministerio Público de lo Familiar y todos estos cargos en la Procuraduría General de justicia del Distrito Federal hoy Fiscalía General de la Ciudad de México; Director de Asistencia Jurídica del Sistema Nacional para el Desarrollo Integral de la Familia, Secretario de Acuerdos del Juzgado Primero de Distrito en Materia Civil del Primer Circuito en el Distrito Federal, Secretario Proyectista de la Séptima Sala Civil del Tribunal Superior de Justicia del Distrito Federal, nuevamente se desempeño como Juez de lo Familiar, asimismo fue designado como miembro de la Red Nacional de Cooperación Judicial y Protección para la Niñez, teniendo el cargo de Secretario Técnico de la misma desde febrero del 2010 hasta el Abril del 2012; asimismo es especialista en Restitución Internacional. Fue designado por la Asamblea Legislativa del Distrito Federal como Magistrado del Tribunal Superior de Justicia del Distrito Federal a partir del 8 de noviembre del año 2011, Magistrado integrante de la Quinta Sala Familiar del Tribunal Superior de Justicia de la Ciudad de México.</p>
                 <p class="text-justify">Actualmente se desempeña como Consejero de la Ponencia 1 del Consejo de la Judicatura de la Ciudad de México.</p>
                 <p class="text-justify">Correo electrónico: andres.linares@cjcdmx.gob.mx</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Mtra. Dulce María Mejía Cortés ****----->
+<div class="modal fade" id="modal18" tabindex="-1" role="dialog" aria-labelledby="modal18" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal18LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mtra. Dulce María Mejía Cortés</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Dirección General de Representación Jurídica y Restitución de Derechos de Niñas, Niños y Adolescentes en la Procuraduría Federal de Protección Niñas, Niños y Adolescentes en el Sistema Nacional para el Desarrollo Integral de la Familia.</p>
+                <p class="text-justify">Licenciada en Derecho, Especialista en Derecho Penal y Maestra en Derecho. Titulada en las tres con Mención Honorífica por la Facultad de Derecho de la Universidad Nacional Autónoma de México.</p>
+                <p class="text-justify">Directora General de Representación Jurídica y Restitución de Derechos de Niñas, Niños y Adolescentes en la Procuraduría Federal de Protección de Niñas, Niños y Adolescentes en el Sistema Nacional para el Desarrollo Integral de la Familia. En donde tiene a su cargo la representación jurídica en suplencia ó coadyuvancia en procedimientos administrativos ó jurisdiccionales, gestión de acciones para la restitución integral de derechos de niñas, niños y adolescentes, así como la revisión de medidas de protección integral y restitución de derechos, especiales y urgentes en favor de niñas, niños y adolescentes cuyos derechos han sido vulnerados.</p>
+                <p class="text-justify">En su trayectoria profesional, ha desempeñado diversos cargos en la Procuraduría General de Justicia de la Ciudad de México, hoy Fiscalía General:</p>
+                <ul class="text-start">
+                    <li>Fiscal de Análisis y Opinión.</li>
+                    <li>Agente del Ministerio Público Supervisor.</li>
+                    <li>Directora de Relaciones Laborales.</li>
+                    <li>Agente del Ministerio Público.</li>
+                </ul>
+                <p class="text-justify">En la Secretaría de Seguridad Pública de la Ciudad de México, hoy Secretaría de Seguridad Ciudadana de la Ciudad de México, ocupó el cargo de Secretaria Particular de la Subsecretaría de Prevención del Delito y Participación Ciudadana.</p>
+                <p class="text-justify">Asimismo, cuenta con capacitación y actualización en materia de Sistema Penal Acusatorio, Derechos de Niñas, Niños y Adolescentes, Adopciones, Acogimiento Familiar, Perspectiva de Género, entre otras.</p>
             </div>
         </div>
     </div>
