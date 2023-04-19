@@ -343,7 +343,7 @@
                 <p class="text-justify">Trayectoria en el TSJDF: Magistrado de la Tercera Sala Civil del 2000 al 2004 y a partir de 2005 Magistrado de la Segunda Sala Familiar.</p>
                 <p class="text-justify">Ratificado por la Asamblea Legislativa del Distrito Federal el 18 de Agosto del 2006.</p>
                 <p class="text-justify fw-bold">Otros:</p>
-                <ul>
+                <ul class="text-start">
                     <li>Juez de Enlace Mexicano en Materia de Restitución Internacional ante la Hague Conference on Private International Law (Conferencia de La Haya en Derecho Internacional Privado).</li>
                     <li>Miembro de la Asociación Internacional de Jueces en Materia de Familia.</li>
                     <li>Impulsor e integrante de la Red Mexicana de Cooperación Judicial para la protección de la Niñez, fundada en 2010.</li>
@@ -857,6 +857,14 @@
                                 <h4>Maribel Concepción Méndez de Lara</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal16">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Dr. Andrés Linares Carranza</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal17">Ver semblanza</button>
                             </div>
                         </div>
 
