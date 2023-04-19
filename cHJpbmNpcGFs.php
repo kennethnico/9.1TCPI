@@ -855,7 +855,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Maribel Concepción Méndez de Lara</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal16">Ver semblanza</button>
                             </div>
                         </div>
