@@ -254,6 +254,80 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Juez Teofilo Abdo Kuri ****----->
+<div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal11LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mtro. Teófilo Abdo Kuri</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify" style="text-transform: capitalize;">JUEZ SÉPTIMO DE PROCESO ORAL EN MATERIA FAMILIAR DEL TRIBUNAL SUPERIOR DE JUSTICIA DE LA CIUDAD DE MÉXICO, JUEZ DE ENLACE EN EL CENTRO DE JUSTICIA PARA LAS MUJERES EN LA ALCALDÍA IZTAPALAPA Y DE TUTELA DE DERECHOS HUMANOS DE LA CIUDAD DE MÉXICO.</p>
+                <p class="text-justify">Instituciones de Egreso: Benemérita Escuela Nacional de Maestros; Facultad de Derecho, Universidad Nacional Autónoma de México; Colegio Universitario del Distrito Federal; Instituto de Ciencias Jurídicas de Estudios Superiores; Universidad de Barcelona.</p>
+                <p class="text-justify">Trayectoria en el Tribunal Superior de Justicia de la Ciudad de México: Secretario de Acuerdos “A” del Juzgado Primero y Octavo de lo Familiar; Titular de Juzgados Noveno, Sexto y Primero Familiar; Magistrado por Ministerio de Ley en la Primera y Tercera Sala Familiar, Juez Séptimo de Proceso Oral en Materia Familiar, Juez de Enlace en el Centro de Justicia para las Mujeres en la Alcaldía Iztapalapa y de Tutela de Derechos Humanos de la Ciudad de México.</p>
+                <p class="text-justify">Experiencia Académica: Profesor en Escuelas Primarias Oficiales de la Secretaría de Educación Pública; Catedrático en el Instituto de Estudios Judiciales del Tribunal Superior de Justicia de la Ciudad de México; Colegio Universitario de la Ciudad de México; Instituto de Ciencias Jurídicas de Estudios Superiores; Universidad Nacional Autónoma de México; Universidad Autónoma de Chihuahua; Universidad Autónoma de Guerrero; Instituto Nacional de Desarrollo Jurídico; Universidad de Colima; Tribunal Superior de Justicia del Estado de Colima; Centro de Capacitación Profesional de Alto Rendimiento en la Ciudad de Querétaro, Querétaro; Colegio de Derecho, Estudios e Investigaciones Jurídicas; Instituto Williams Keembol en la Ciudad de Xalapa, Veracruz; Instituto Profesional Educativo del Sureste, Tuxtla Gutiérrez, San Cristóbal de las Casas, Chiapas; Instituto Cejuma de Tijuana, Estado de Baja California; Universidad de Sotavento A.C., Coatzacoalcos, del Poder Judicial del Estado de Veracruz; Universidad Tepantlato; Tribunal Superior de Justicia, Consejo de la Judicatura y Escuela Judicial de Xalapa, Estado de Veracruz; Poder Judicial del Estado de Coahuila de Zaragoza; Jurado Calificador del Segundo Concurso de Oratoria en Derechos Humanos y Género, en el Poder Judicial de la Ciudad de México; Universidad IUS SEMPER; Facultad Libré de Derecho de Chiapas A.C., Universidad Mesoamericana A.C., San Cristóbal de las Casas, Chiapas.</p>
+                <p class="text-justify">Obra Editorial: Ensayos, Ponencias y Artículos en los temas de Educación y Cultura de la Legalidad; Educación y Derechos de la Mujer; Pensamiento Crítico y Argumentación; El Perfil del Juez Familiar en los Juicios Orales; Calidad de Vida del Ser Humano; Proyecto de Vida; Ética Judicial; Facultades Discrecionales del Juez de lo Familiar; Controversias del Orden Familiar; Formalidades en las Controversias del Orden Familiar; Medios Alternativos de Solución; La Conciliación como un medio necesario para la resolución de conflictos; Mecanismos para preservar la armonía e integración familiar; Divorcio sin causal; Técnicas de Litigio; Derechos Humanos; Perspectiva y Equidad de Género; Juicio Oral Familiar; Principios del Derecho Familiar, Amparo; Interrogatorio y Contrainterrogatorio; Debate; Argumentación Lógica y Falacias, Ética, Moral y Justicia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Andrés Camilo Hernández Ramírez ****----->
+<div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal12LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Andrés Camilo Hernández Ramírez</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify fw-bold">Cónsul General de Colombia en México</p>
+                <p class="text-justify">Comunicador Social y periodista, ha trabajado por más de ocho años en medios de comunicación como Caracol Radio y RCN Radio, se ha desempeñado como jefe de comunicaciones y prensa durante más de seis años del hoy presidente de Gustavo Petro.</p>
+                <p class="text-justify">Hizo parte en 2018 de la Unidad de Trabajo Legislativo en Senado de la República hasta julio de 2022, como asesor del Senador Gustavo Petro, desempeñando las funciones de jefe de prensa y liderando las investigaciones como Odebrecht, violación de DDHH, bombardeo a menores y el entrampamiento a la paz.</p>
+                <p class="text-justify">Tiene experiencia en Derechos Humanos, DIH y ha trabajado de la mano con el observatorio de Derechos Humanos de INDEPAZ en temas migratorios y violaciones de derechos Humanos derivados al conflicto armado, ha participado en diplomados sobre comunicación visual y nuevas narrativas y BRICS – América Latina: Desarrollo Emergente y Crisis Global.</p>
+                <p class="text-justify">Fue columnista de opinión de Publimetro Colombia y es activista de la población LGBTIQ desde hace más de 16 años en el país.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Mtra. Anameli Dávalos Vázquez ****----->
+<div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal13LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mtra. Anameli Dávalos Vázquez</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Coordinadora de Servicios Legales en la Dirección General de Asuntos Jurídicos de la Secretaría de Relaciones Exteriores, desde el 1 de julio de 2021.</p>
+                <p class="text-justify">Recientemente ha formado parte del equipo coordinador de la Dirección General de Asuntos Jurídicos de los Foros de Nacionalidad organizados por la Cancillería, donde también ha tenido participación en los Conversatorios.</p>
+                <p class="text-justify">Es Maestra en Derecho por parte de la Universidad Nacional Autónoma de México.</p>
+                <p class="text-justify">Asimismo tiene el grado de Especialista en Derecho Internacional Público, por la misma casa de estudios.</p>
+                <p class="text-justify">Y es Licenciada en Derecho por la Universidad La Salle.</p>
+                <p class="text-justify">Tiene una trayectoria profesional de más de 20 años, principalmente en la Administración Pública Federal, ocupando diversos puestos en áreas jurídicas, siendo los últimos:</p>
+                <ul>
+                    <li>Directora de lo Consultivo y de Normatividad en la Secretaría de Relaciones Exteriores.</li>
+                    <li>Directora de lo Consultivo en la Secretaría de Turismo.</li>
+                </ul>
+                <p class="text-justify">Asimismo, ha ocupado diversos cargos en áreas jurídicas órganos autónomos y órganos administrativos desconcentrados, como son:</p>
+                <ul>
+                    <li>Instituto Federal de Acceso a la Información y Protección de Datos, actualmente Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales, donde fue integrante del equipo pionero en la implementación de la entonces nueva Ley de Protección de Datos Personales en Posesión de Particulares, en la Dirección General de Sustanciación y Sanción.</li>
+                    <li>Procuraduría General de la República, donde laboró en la Oficialía Mayor.</li>
+                    <li>Instituto Nacional de Migración, donde estuvo en diversas áreas de la Coordinación Jurídica.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
