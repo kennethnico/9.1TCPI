@@ -232,6 +232,28 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Dra. Irene López Faugier ****----->
+<div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal10LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Dra. Irene López Faugier</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Doctora y Maestra en Derecho con mención honorifica por la División de Estudios de Posgrado de la Facultad de Derecho de la UNAM.</p>
+                <p class="text-justify">Especialista en Derecho Procesal y Derecho Civil por la Universidad de Salamanca, España.</p>
+                <p class="text-justify">Desde 1997 es catedrática de la Facultad de Derecho de la UNAM en las materias de Derecho Familiar; Familia y Sucesiones; Temas de Derecho Familiar; Procesal Civil, Procesal Familiar y Ambiental, en los distintos sistemas de educación, como son: escolarizado, abierto, distancia y Posgrado.</p>
+                <p class="text-justify">Profesora de Carrera Tempo Completo de la Facultad de Derecho de la Universidad Nacional Autónoma de México.</p>
+                <p class="text-justify">Autora de diversos artículos en materia familiar, género, civil, procesal y ambiental, así como del libro "La prueba científica de la filiación” editado por Porrúa.</p>
+                <p class="text-justify">Amplia trayectoria como consultora, abogada postulante, funcionario judicial y de procuración de justicia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
