@@ -192,6 +192,24 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Claudia Sierra Martínez ****----->
+<div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal7LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Claudia Sierra Martínez</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify fw-bold">Subdirectora de Restitución y Custodia Internacional de Niñas, Niños y Adolescentes</p>
+                <p class="text-justify">Lic. en Derecho por la Universidad Nacional Autónoma de México, con especialidad en Derecho Administrativo y Mediación Familiar, es miembro supernumerario de la Academia Mexicana de Derecho Internacional Privado y Comparado, ha participado como ponente en las Reuniones de la Red Mexicana de Cooperación Judicial para la Protección de la Niñez, escuelas judiciales estatales, así como en las jornadas de actualización en materia civil y administrativa en el Consejo de la Judicatura Federal, entre otras instituciones públicas y privadas. Se ha desempeñado como Abogada Dictaminadora en la Dirección de Nacionalidad y Naturalización de la Dirección General de Asuntos Jurídicos y Jefa del Departamento de Recuperación de Alimentos en el Extranjero ambas en la Secretaría de Relaciones Exteriores. En este momento funge como Subdirectora de Restitución y Custodia Internacional de Niñas, Niños y Adolescentes en la Dirección General de Protección Consular y Planeación Estratégica, Oficina designada como Autoridad Central para las Convenciones en materia de Sustracción Internacional de Menores, pensiones alimenticias y casos de reunificación familiar Estados Unidos-México.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
