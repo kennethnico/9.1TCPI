@@ -680,7 +680,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8"  style="max-height: 600px!important; overflow: auto;">
-                    <div class="row">
+                    <div class="row" data-aos="fade-left"  data-aos-delay="200">
                         <div class="col-md-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon"><i class="fa fa-user"></i></div>
@@ -741,7 +741,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Claudia Sierra Martínez</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza de la ponente: </p><br><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal8">Ver semblanza</button>
                             </div>
                         </div>
@@ -765,7 +765,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Mtro. Teofilo Abdo Kuri</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal11">Ver semblanza</button>
                             </div>
                         </div>
@@ -773,7 +773,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Andrés Camilo Hernández Ramírez</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal12">Ver semblanza</button>
                             </div>
                         </div>
@@ -789,7 +789,7 @@
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Mag. Oscar Gregorio Cervera Rivero</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal14">Ver semblanza</button>
                             </div>
                         </div>
