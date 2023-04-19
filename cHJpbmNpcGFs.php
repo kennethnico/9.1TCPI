@@ -1,11 +1,11 @@
 <?php
-session_start();
-require 'partials/base.php';
-require 'partials/expires.php';
-if(!isset($_SESSION['myuser']))
-{
-    echo'<script>window.location.href="index.html"</script>';
-}
+#session_start();
+#require 'partials/base.php';
+#require 'partials/expires.php';
+#if(!isset($_SESSION['myuser']))
+#{
+#    echo'<script>window.location.href="index.html"</script>';
+#}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -789,7 +789,6 @@ if(!isset($_SESSION['myuser']))
                <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
                 <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/4e2ba25f63.html" style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
             </div>
-
         </div>
     </section><!-- End Cta Section -->
     <!-- ======= Semblanzas Section ======= -->
@@ -1213,96 +1212,49 @@ if(!isset($_SESSION['myuser']))
     <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
-    <!--
+
     <section id="team" class="team">
         <div class="container">
+            <div class="text-center" data-aos="zoom-in">
+                <h3>PONENCIAS</h3>
 
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="section-title" data-aos="fade-right">
-                        <h2>Team</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+                <!----Inicio Inauguración---->
+                <div class="row wow fadeInLeft">
+                    <div class="col-12">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="" id="">
+                                <ul class="list-group">
+                                    <li class="list-group-item text-center">
+                                        <div class="jumbotron jumbotron-fluid">
+                                            <div class="container">
+                                                <h1 class="display-6">Inauguración</h1>
+                                                <p class="lead">Dr. Rafael Guerra Álvarez</p>
+                                                <p class="small">Magistrado Presidente de la Comisión Nacional de Tribunales Superiores de Justicia de los Estados Unidos Mexicanos</p>
+                                                <p class="lead">Dirección General de Asuntos Jurídicos</p>
+                                                <p class="small">Secretaría de Relaciones Exteriores</p>
+                                                <button type="button" class="btn btn-secondary btn-sm mb-20 bg-primary-color" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ver mensaje</button>
+                                                <div class="collapse" id="collapseExample">
+                                                    <div class="card card-body">
+                                                        <!-- 1. Video Wrapper Container -->
+                                                        <div class="embed-youtube" data-video-id="jcyq_Np5qPk">
+                                                            <!-- 2. The preview button that will contain the Play icon -->
+                                                            <div class="embed-youtube-play"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="row">
-
-                        <div class="col-lg-6">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                                <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
-                                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4 mt-lg-0">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                                <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
-                                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                                <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
-                                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4">
-                            <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                                <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-                                <div class="member-info">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
+                <!----Fin Inauguración---->
             </div>
-
         </div>
     </section>
-    --><!-- End Team Section -->
+    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <!--

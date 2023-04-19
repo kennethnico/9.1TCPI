@@ -10,6 +10,15 @@
   background-color: var(--third-color)!important;
   color: white!important;
 }
+.font-color-main{
+  color: var(--main-color) !important;
+}
+.font-color-secondary{
+  color: var(--second-color) !important;
+}
+.font-color-third{
+  color: var(--third-color) !important;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
