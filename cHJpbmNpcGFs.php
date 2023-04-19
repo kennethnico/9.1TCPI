@@ -197,7 +197,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header bg-primary-color">
-                <h5 class="modal-title font-white" id="modal7LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Claudia Sierra Martínez</h5>
+                <h5 class="modal-title font-white" id="modal8LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Claudia Sierra Martínez</h5>
                 <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -205,6 +205,28 @@
             <div class="modal-body text-center">
                 <p class="text-justify fw-bold">Subdirectora de Restitución y Custodia Internacional de Niñas, Niños y Adolescentes</p>
                 <p class="text-justify">Lic. en Derecho por la Universidad Nacional Autónoma de México, con especialidad en Derecho Administrativo y Mediación Familiar, es miembro supernumerario de la Academia Mexicana de Derecho Internacional Privado y Comparado, ha participado como ponente en las Reuniones de la Red Mexicana de Cooperación Judicial para la Protección de la Niñez, escuelas judiciales estatales, así como en las jornadas de actualización en materia civil y administrativa en el Consejo de la Judicatura Federal, entre otras instituciones públicas y privadas. Se ha desempeñado como Abogada Dictaminadora en la Dirección de Nacionalidad y Naturalización de la Dirección General de Asuntos Jurídicos y Jefa del Departamento de Recuperación de Alimentos en el Extranjero ambas en la Secretaría de Relaciones Exteriores. En este momento funge como Subdirectora de Restitución y Custodia Internacional de Niñas, Niños y Adolescentes en la Dirección General de Protección Consular y Planeación Estratégica, Oficina designada como Autoridad Central para las Convenciones en materia de Sustracción Internacional de Menores, pensiones alimenticias y casos de reunificación familiar Estados Unidos-México.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
+<!-----**** Martha Angélica Álvarez Rendón ****----->
+<div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal9LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Martha Angélica Álvarez Rendón</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Es Licenciada en Derecho por la Facultad de Derecho de la Universidad Nacional Autónoma de México.</p>
+                <p class="text-justify">Como parte de su formación académica, ha realizado múltiples cursos y diplomados enfocados a temas de Derecho Internacional Público, Derecho Internacional Privado, Arbitraje Comercial Internacional y Derechos Humanos, entre los cuales destacan: “Regional Workshop in International Law for Latin America and the Caribbean on the Law of State Responsibility” y “Regional Workshop for Latin America and the Caribbean on the Peaceful Settlement of International Disputes”, impartidos por United Nations Programme of Assistance in the Teaching, Study, Dissemination and Wider Appreciation of International Law; el “Curso de Actualización sobre el Derecho Interamericano”, impartido por el Departamento de Derecho Internacional de la Secretaría de Asuntos Jurídicos de la Organización de los Estados Americanos y el Instituto Matías Romero de la Secretaría de Relaciones Exteriores; y “Course Introduction to the United Nations Commission on International Trade Law”, curso que ofrece la Comisión de Naciones Unidas para el Derecho Mercantil Internacional.</p>
+                <p class="text-justify">Actualmente se desempeña como Directora de Derecho Internacional Privado en la Consultoría Jurídica de la Secretaría de Relaciones Exteriores, proporcionando seguimiento y análisis de los tópicos jurídicos que se encuentran en discusión en los foros internacionales especializados en materia de Derecho Internacional Privado, como la Conferencia de La Haya de Derecho Internacional Privado (HCCH); la Comisión de Naciones Unidas para el Derecho Mercantil Internacional (UNCITRAL); el Instituto Internacional para la Unificación del Derecho Privado (UNIDROIT); y el Comité Jurídico Interamericano.</p>
+                <p class="text-justify">En el desempeño de sus funciones, ha sido integrante de las Delegaciones de México que han participado en los períodos de sesiones de los seis Grupos de Trabajo de la Comisión de Naciones Unidas para el Derecho Mercantil Internacional (UNCITRAL). Adicionalmente, ha participado en las reuniones y actividades de los Grupos de Trabajo y Expertos de la Conferencia de La Haya de Derecho Internacional Privado (HCCH)</p>
+                <p class="text-justify">A partir de 2021, participa como representante de México en el Grupo de Trabajo sobre Jurisdicción de la Conferencia de La Haya de Derecho Internacional Privado.</p>
+                <p class="text-justify">Desde 2021, coordina el evento que se celebra en México con motivo del Día de UNCITRAL en América Latina y el Caribe, iniciativa que ha consolidado la Comisión de Naciones Unidas para el Derecho Mercantil Internacional (UNCITRAL) para acercar a las nuevas generaciones de abogados la labor que realiza la Organización en pro de la armonización y desarrollo progresivo del Derecho Mercantil Internacional.</p>
             </div>
         </div>
     </div>
