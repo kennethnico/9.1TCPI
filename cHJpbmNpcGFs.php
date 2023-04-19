@@ -34,6 +34,8 @@
     <link href="css/stylesMixed/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="css/stylesMixed/remixicon/remixicon.css" rel="stylesheet">
     <link href="css/stylesMixed/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!---Youtube-->
+    <link rel="stylesheet" href="./css/youtube_embed.css">
 
     <!-- icons fontawesome -->
     <script src="https://kit.fontawesome.com/f40904d23d.js" crossorigin="anonymous"></script>
@@ -1216,10 +1218,12 @@
     <section id="team" class="team">
         <div class="container">
             <div class="text-center" data-aos="zoom-in">
-                <h3>PONENCIAS</h3>
-
+                <!--<h3></h3>-->
+                <div class="section-title" data-aos="fade-right" data-aos-delay="100">
+                    <h2>Ponencias</h2>
+                </div>
                 <!----Inicio Inauguración---->
-                <div class="row wow fadeInLeft">
+                <div class="row wow" data-aos="fade-left" data-aos-delay="300">
                     <div class="col-12">
                         <div class="tab-content" id="nav-tabContent">
                             <div class="" id="">
@@ -1408,7 +1412,10 @@
 <script src="css/stylesMixed/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="css/stylesMixed/swiper/swiper-bundle.min.js"></script>
 <script src="css/stylesMixed/php-email-form/validate.js"></script>
-
+<!----Youtube------>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazy-youtube-embed@1.0.0/dist/lazy-youtube-embed.js" defer></script>
+<script src="./js/lazyJS.js"></script>
+<!----End Youtube------>
 <!-- Template Main JS File -->
 <script src="js/jsmixed/main.js"></script>
 
