@@ -389,6 +389,28 @@
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Maribel Concepción Méndez de Lara ****----->
+<div class="modal fade" id="modal16" tabindex="-1" role="dialog" aria-labelledby="modal16" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal16LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Maribel Concepción Méndez de Lara</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Nació en Villanueva, Zacatecas.</p>
+                <p class="text-justify">Licenciada en Derecho por la Universidad Autónoma de Zacatecas, con Maestría en Gestión Pública por el CIDE. Doctoranda en Administración del Poder Judicial en la Escuela del Poder Judicial de la CDMX.</p>
+                <p class="text-justify">30 años de experiencia en materia agraria, 20 años en instituciones agrarias de la Administración Pública Federal (PA-SRA hoy SEDATU, FIFONAFE), y hace 10 años nombrada por la Comisión Permanente, como Magistrada Numeraria al Pleno del Tribunal Superior Agrario.</p>
+                <p class="text-justify">Autora del libro “El Ejido y la Comunidad en el México del Siglo XXI – La Transición Agraria 1992-2015”, así como coordinadora de la obra Derecho Agrario en la Función Jurisdiccional, en el que participan 10 magistradas agrarias, en el que elaboró el artículo “El dilema de la justicia en la acción de restitución en materia agraria”.</p>
+                <p class="text-justify">Trabaja por la igualdad de derechos de mujeres y hombres, por la equidad y el estado de derecho.</p>
+                <p class="text-justify">Actualmente es Presidenta del Tribunal Superior Agrario, designada en sesión administrativa del 15 de diciembre de 2020.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
