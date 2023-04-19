@@ -461,6 +461,29 @@ if(!isset($_SESSION['myuser']))
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Mtro. Carlos E. Odriozola  Mariscal ****----->
+<div class="modal fade" id="modal19" tabindex="-1" role="dialog" aria-labelledby="modal19" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal19LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mtro. Carlos E. Odriozola Mariscal</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">Egresado de la Facultad de Derecho de la Universidad Nacional Autónoma de México, ha cursado diversas especialidades, diplomados y cursos en las Universidades de Salamanca, Harvard, Federica de Nápoles, Panamericana, El Colegio de México e Instituto de Investigaciones Jurídicas de la UNAM.</p>
+                <p class="text-justify">Estudió la Maestría en Derecho Internacional en la División de Estudios de Posgrado de la UNAM, en donde forma parte del claustro de profesores al haber impartido diversas cátedras relativas al Derecho internacional y los derechos humanos.</p>
+                <p class="text-justify">Actualmente es Doctorando por la misma Universidad en donde su investigación aborda el funcionamiento de las redes judiciales para una mejor cooperación procesal internacional.</p>
+                <p class="text-justify">Fue Presidente de la junta de gobierno de la Academia Mexicana de Derecho Internacional Privado y Comparado, A.C. (AMEDIP) y es miembro pleno de la Asociación Americana de Derecho Internacional Privado (ASADIP).</p>
+                <p class="text-justify">Ha publicado numerosos artículos en materia de Derecho procesal internacional, litigio estratégico y Derechos humanos. Es autor del libro “El seguro de título inmobiliario”, única obra en lengua hispana sobre dicha figura anglosajona.</p>
+                <p class="text-justify">Ha obtenido diversos premios de investigación jurídica en México, incluidos el primer lugar del Concurso de Ensayo Jurídico para celebrar el 50 aniversario del Instituto de Investigaciones Jurídicas de la UNAM y el primer lugar del Concurso literario sobre la Justicia, organizado por el Tribunal Superior de Justicia de la Ciudad de México conmemorativo de los 150 años de su fundación.</p>
+                <p class="text-justify">Es Director General de Bufete Odriozola, S.C., firma de abogados litigantes en materia civil, familiar, mercantil y amparo desde hace 28 años. Es Presidente del CENTRO CONTRA LA DISCRIMNACION, AC (CECODI), en donde ha realizado una importante labor social a través de litigio estratégico en derechos humanos desde hace más de 15 años.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
