@@ -1301,11 +1301,12 @@
                                                 </div>
                                             </div>
                                             -->
+                                            <!--Ponencia 1--->
                                             <div class="card">
                                                 <div class="card-header bg-second-color" id="headingOne">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
-                                                            “Cooperación Judicial entre Estados Unidos y México de conformidad con la Convención de la Haya sobre pruebas”
+                                                            "Cooperación Judicial entre Estados Unidos y México de conformidad con la Convención de la Haya sobre pruebas"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1329,11 +1330,13 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- End Ponencia 1-->
+                                            <!-- Begin Ponencia 2-->
                                             <div class="card">
                                                 <div class="card-header bg-gray-color" id="heading2">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2" style="text-decoration: none;">
-                                                            “Cooperación Judicial entre Estados Unidos y México de conformidad con la Convención de la Haya sobre pruebas”
+                                                            "Actualización en Materia de Cooperación Procesal Internacional en los Estados Unidos de América"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1343,8 +1346,8 @@
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                       <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Katerina V. Ossenova</span><br>
-                                                                        <span class="fst-italic"><span>Oficina de Asistencia Judicial Internacional, División Civil, Departamento de Justicia de los Estados Unidos de América.</span></span>
+                                                                       <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Christine Brennan</span><br>
+                                                                        <span class="fst-italic">Abogada a cargo de Litigio Latinoamericano, Departamento de Justicia de EE. UU., Oficina de Litigios Extranjeros, Embajada de los Estados Unidos en Panamá.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
                                                                         <div class="embed-youtube" data-video-id="####">
@@ -1357,6 +1360,10 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- End Ponencia 2-->
+                                            <!-- Begin Ponencia 3-->
+
+                                            <!-- End Ponencia 3-->
                                         </div>
                                     </li>
                                 </ul>
