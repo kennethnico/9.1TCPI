@@ -30,15 +30,6 @@ if(!isset($_SESSION['myuser']))
   <link rel="shortcut icon" href="assets/logos/ocho.png">
   <link rel="stylesheet" href="css/presets.css">
   <title>Selección de mesa | 8° TCPI</title>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHZQYPSHHL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-ZHZQYPSHHL');
-  </script>
 </head>
 <body>
 
@@ -104,7 +95,8 @@ if(!isset($_SESSION['myuser']))
           #exit();
           ?>
           <script type="text/javascript">
-              window.location.href = "cHJpbmNpcGFs.php";
+              //window.location.href = "cHJpbmNpcGFs.php";
+              window.location.href = "csoon.php";
           </script>
           ?>
           <!--<div class="container_c">
