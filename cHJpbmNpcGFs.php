@@ -940,6 +940,22 @@ if(!isset($_SESSION['myuser']))
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal17">Ver semblanza</button>
                             </div>
                         </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Mtra. Dulce María Mejía Cortés</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal18">Ver semblanza</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <div class="icon"><i class="fa fa-user"></i></div>
+                                <h4>Mtro. Carlos E. Odriozola  Mariscal</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal19">Ver semblanza</button>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
