@@ -1451,6 +1451,36 @@
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 5-->
+                                            <!-- Begin Ponencia 6-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading6">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6" style="text-decoration: none;">
+                                                            "Cobro de Pensiones Alimenticias en el Extranjero"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Maxwel Aurora Flores Rico</span><br>
+                                                                        <span class="fst-italic">Subdirectora de Pensiones Alimenticias y Adopciones Internacionales, Dirección General de Protección Consular y Planeación Estratégica de la de Relaciones Exteriores.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 6-->
                                         </div>
                                     </li>
                                 </ul>
