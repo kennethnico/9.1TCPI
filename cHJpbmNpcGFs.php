@@ -1,11 +1,11 @@
 <?php
-session_start();
-require 'partials/base.php';
-require 'partials/expires.php';
-if(!isset($_SESSION['myuser']))
-{
-    echo'<script>window.location.href="index.html"</script>';
-}
+#session_start();
+#require 'partials/base.php';
+#require 'partials/expires.php';
+#if(!isset($_SESSION['myuser']))
+#{
+#    echo'<script>window.location.href="index.html"</script>';
+#}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -1362,8 +1362,65 @@ if(!isset($_SESSION['myuser']))
                                             </div>
                                             <!-- End Ponencia 2-->
                                             <!-- Begin Ponencia 3-->
-
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading3">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3" style="text-decoration: none;">
+                                                            Por Confirmar
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dr. Raúl Aparicio Alba</span><br>
+                                                                        <span class="fst-italic">Presidente de la Asociación Derecho Internacional Privado y Derecho Comparado de Panamá (ADIPCOP).</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <!-- End Ponencia 3-->
+                                            <!-- Begin Ponencia 4-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading4">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4" style="text-decoration: none;">
+                                                            "Práctica mexicana sobre inmunidades y Derecho Procesal"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse2" class="collapse" aria-labelledby="heading4" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtra. Liliana Olivia Bernal</span><br>
+                                                                        <span class="fst-italic">Directora de Litigios I, Consultoría Jurídica de la Secretaría de Relaciones Exteriores.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 4-->
                                         </div>
                                     </li>
                                 </ul>
