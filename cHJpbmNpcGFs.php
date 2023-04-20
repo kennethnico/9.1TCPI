@@ -1400,7 +1400,7 @@
                                                         </button>
                                                     </h2>
                                                 </div>
-                                                <div id="collapse2" class="collapse" aria-labelledby="heading4" data-parent="#miercoles31">
+                                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
@@ -1421,6 +1421,36 @@
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 4-->
+                                            <!-- Begin Ponencia 5-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading5">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5" style="text-decoration: none;">
+                                                            "Análisis del Tratado de Medellín relativo a la transmisión electrónica de soluciones de cooperación jurídica internacional entre autoridades centrales"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponentes: </span><span class="font-ponentes">Dra. María José Rodríguez Rocha<br>Dr. Manuel Ferreira</span><br>
+                                                                        <span class="fst-italic">Autoridad Central de Cooperación Jurídica Internacional, Ministerio de Educación y Cultura de Uruguay.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 5-->
                                         </div>
                                     </li>
                                 </ul>
