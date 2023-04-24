@@ -81,12 +81,14 @@
             <div class="text-center" data-aos="zoom-in"><br><br>
                 <h3>PROGRAMA</h3>
                 <p> Conoce la programación de las ponencias y mesas de trabajo del 9° Taller de Cooperación Procesal Internacional. El contenido estará disponible el 31 de mayo de 2023 a las 00:00 hrs. Horario central GTM-6 </p>
+                <!--
                 <p class="fst-italic font-color-white small">Si desea participar de manera presencial en las mesas de trabajo del 1° de Junio, envía un email al correo: <strong>ejemplo@ejemplo.com</strong>; con los siguientes datos:</p>
                 <ul class="font-color-white text-start">
                     <li>Nombre completo</li>
                     <li>Dependencia</li>
                     <li>Número telefónico</li>
                 </ul>
+                -->
                 <!--<a class="cta-btn" href="#"> - </a>-->
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
                 <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
@@ -100,61 +102,10 @@
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
-
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <!--
-                          <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Bethany</h3>
-                            <p>
-                              A108 Adam Street <br>
-                              New York, NY 535022<br>
-                              United States <br><br>
-                              <strong>Phone:</strong> +1 5589 55488 55<br>
-                              <strong>Email:</strong> info@example.com<br>
-                            </p>
-                          </div>
-
-                          <div class="col-lg-2 col-md-6 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                            </ul>
-                          </div>
-
-                          <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                            </ul>
-                          </div>
-
-                          <div class="col-lg-4 col-md-6 footer-newsletter">
-                            <h4>Join Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                            <form action="" method="post">
-                              <input type="email" name="email"><input type="submit" value="Subscribe">
-                            </form>
-                          </div>
-                -->
-            </div>
-        </div>
-    </div>
-
     <div class="container d-md-flex py-4">
-
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>PJCDMX</span></strong>. Todos los Derechos Reservados
+                &copy;<strong><span> Poder Judicial de la Ciudad de México</span></strong>, 2023
             </div>
             <div class="credits">
             </div>
