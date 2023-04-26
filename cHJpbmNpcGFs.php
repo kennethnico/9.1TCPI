@@ -1349,7 +1349,7 @@
                                                                         <span class="fst-italic">Abogada a cargo de Litigio Latinoamericano, Departamento de Justicia de EE. UU., Oficina de Litigios Extranjeros, Embajada de los Estados Unidos en Panamá.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="RQLa9zDJ6Ao">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1360,7 +1360,7 @@
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 2-->
-                                            <!-- Begin Ponencia 3-->
+                                            <!-- Begin Ponencia 3 - Pendiente Video-->
                                             <div class="card">
                                                 <div class="card-header bg-second-color" id="heading3">
                                                     <h2 class="mb-0">
@@ -1409,7 +1409,7 @@
                                                                         <span class="fst-italic">Directora de Litigios I, Consultoría Jurídica de la Secretaría de Relaciones Exteriores.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="iFzv8lTjDTg">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1439,7 +1439,7 @@
                                                                         <span class="fst-italic">Autoridad Central de Cooperación Jurídica Internacional, Ministerio de Educación y Cultura de Uruguay.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="4HjgyyFzqFk">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1469,7 +1469,7 @@
                                                                         <span class="fst-italic">Subdirectora de Pensiones Alimenticias y Adopciones Internacionales, Dirección General de Protección Consular y Planeación Estratégica de la de Relaciones Exteriores.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="3h7DOvG4QyI">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1480,6 +1480,126 @@
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 6-->
+                                            <!-- Begin Ponencia 7-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading7">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapse7" style="text-decoration: none;">
+                                                            "Conferencia de la Haya – Comisión Especial del 2023 sobre la Operación Práctica de los Convenios de Notificaciones (1965), Pruebas (1970) y Acceso a la Justicia (1980)"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">EPPGG Arnaldo José Alves Silveira</span><br>
+                                                                        <span class="fst-italic">Coordinador General de Cooperación Jurídica Internacional en Materia Civil del Departamento de Recuperación de Activos y Cooperación Jurídica Internacional (DRCI) del Ministerio de Justicia y Seguridad Pública, Autoridad Central de Brasil.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="Lbz-DnHPAv0">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 7-->
+                                            <!-- Begin Ponencia 8 Pendiente-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading8">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8" style="text-decoration: none;">
+                                                            Por Confirmar
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dr. Rogelio Rodríguez Garduño</span><br>
+                                                                        <span class="fst-italic">Universidad Nacional Autónoma de México.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="#####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 8-->
+                                            <!-- Begin Ponencia 9-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading9">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="true" aria-controls="collapse9" style="text-decoration: none;">
+                                                            "Medidas Preventivas de Sustracción Internacional de Menores"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Claudia Sierra Martínez</span><br>
+                                                                        <span class="fst-italic">Subdirectora de Restitución y Custodia Internacional de Menores, Dirección General de Protección Consular y Planeación Estratégica de la Secretaría de Relaciones Exteriores.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="BrRKi47JFPc">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 9-->
+                                            <!-- Begin Ponencia 10 Pendiente-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading10">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10" style="text-decoration: none;">
+                                                            Por Confirmar
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Jorge Roberto Ordóñez Escobar</span><br>
+                                                                        <span class="fst-italic">Consultor en Litigio Constitucional y Asuntos Públicos.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="#####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 10-->
                                         </div>
                                     </li>
                                 </ul>
