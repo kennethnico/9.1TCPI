@@ -1214,8 +1214,7 @@
     -->
     <!-- End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
-
+    <!-- ======= Sección Ponencias ======= -->
     <section id="ponencias" class="team">
         <div class="container">
             <div class="text-center" data-aos="zoom-in">
@@ -1320,7 +1319,7 @@
                                                                         <span class="fst-italic"><span>Oficina de Asistencia Judicial Internacional, División Civil, Departamento de Justicia de los Estados Unidos de América.</span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="8YrruMVXm6c">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1656,7 +1655,7 @@
 
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>EKNR</span></strong>. All Rights Reserved
+                &copy;<strong><span> Poder Judicial de la Ciudad de México</span></strong>, 2023
             </div>
             <div class="credits">
             </div>
