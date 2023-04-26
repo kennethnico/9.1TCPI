@@ -1600,6 +1600,186 @@
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 10-->
+                                            <!-- Begin Ponencia 11-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading11">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="true" aria-controls="collapse11" style="text-decoration: none;">
+                                                            "Una mirada al futuro del trabajo de la Conferencia de la Haya sobre el Derecho Internacional Privado en Materia de Cooperación Procesal Internacional"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Martha Angélica Álvarez Rendón</span><br>
+                                                                        <span class="fst-italic">Subdirectora de Derecho Internacional II, Consultoría Jurídica de la Secretaría de Relaciones Exteriores.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="CUGCSddPzwM">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 11-->
+                                            <!-- Begin Ponencia 12 Pendiente-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading12">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="true" aria-controls="collapse12" style="text-decoration: none;">
+                                                            "Medios de Comunicación Jurídico Procesal"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dr. Andrés Linares Carranza</span><br>
+                                                                        <span class="fst-italic">Consejero de la Judicatura de la Ciudad de México.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="#####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 12-->
+                                            <!-- Begin Ponencia 13 Pendiente-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading13">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13" style="text-decoration: none;">
+                                                            Por Confirmar
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse13" class="collapse" aria-labelledby="heading13" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dra. Graciela Tagle de Ferreyra</span><br>
+                                                                        <span class="fst-italic">Representante de la Red Internacional de Jueces de la Haya de la República de Argentina, Coordinadora de la Oficina de Cooperación Jurídica Internacional del Tribunal Superior de Justicia de la Provincia de Córdoba; y Punto de Contacto de la Red Iberoamericana de Cooperación Jurídica Internacional (IberRed).</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 13-->
+                                            <!-- Begin Ponencia 14-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading14">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="true" aria-controls="collapse14" style="text-decoration: none;">
+                                                            "Gestación Asistida: Explotación de mujeres con fines reproductivos"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse14" class="collapse" aria-labelledby="heading14" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dra. Concepción Irene López Faugier</span><br>
+                                                                        <span class="fst-italic">Titular Profesora de Carrera de la Facultad de Derecho de la Universidad Nacional Autónoma de México.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="jEkyGuybxO0">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 14-->
+                                            <!-- Begin Ponencia 15-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading15">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="true" aria-controls="collapse15" style="text-decoration: none;">
+                                                            "Aplicación del Derecho Extranjero en México y el Código Nacional de Procedimientos Civiles y Familiares"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Carlos E. Odriozola Mariscal</span><br>
+                                                                        <span class="fst-italic">Academia Mexicana de Derecho Internacional Privado y Comparado, A.C.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="_xwVsgubshY">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 15-->
+                                            <!-- Begin Ponencia 16-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading16">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16" style="text-decoration: none;">
+                                                            "Derecho a vivir en Familia de Niñas, Niños y Adolescentes"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtra. Dulce María Mejía Cortes</span><br>
+                                                                        <span class="fst-italic">Dirección General de Representación Jurídica y Restitución de Derechos de Niñas, Niños y Adolescentes en la Procuraduría Federal de Protección de Niñas, Niños y Adolescentes en el Sistema Nacional para el Desarrollo Integral de la Familia.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="######">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 16-->
                                         </div>
                                     </li>
                                 </ul>
