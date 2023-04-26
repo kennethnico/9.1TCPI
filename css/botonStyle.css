@@ -1,0 +1,32 @@
+.container_myBoton{
+    background-color: #4057a3;
+    border: 1px solid #FFF;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 60px;
+    right: 5px;
+    padding: 5px;
+    transition: ease 0.3s;
+    animation: efecto_myBoton 1.2s infinite;
+}
+
+.container_myBoton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.myBoton{
+    width: 80px;
+    height: 80px;
+    transition: ease 1s;
+
+}
+
+@keyframes efecto_myBoton {
+    0%{
+        box-shadow: 0 0 0 0 rgba(188,149,92,1);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(188,149,92,0);
+    }
+}

@@ -36,6 +36,8 @@
     <link href="css/stylesMixed/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!---Youtube-->
     <link rel="stylesheet" href="./css/youtube_embed.css">
+    <!---Boton Flotante-->
+    <link rel="stylesheet" href="./css/botonStyle.css">
 
     <!-- icons fontawesome -->
     <script src="https://kit.fontawesome.com/f40904d23d.js" crossorigin="anonymous"></script>
@@ -44,6 +46,13 @@
 </head>
 
 <body>
+<!-----------Boton flotante begin-------------->
+<div class="container_myBoton">
+    <a href="#">
+        <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
+    </a>
+</div>
+<!-----------boton flotante end-------------->
 <!-----------Modals begin-------------->
 <!-----**** Katerina V. Ossenova ****----->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
