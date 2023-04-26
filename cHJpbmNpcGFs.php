@@ -1780,6 +1780,126 @@
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 16-->
+                                            <!-- Begin Ponencia 17-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading17">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17" style="text-decoration: none;">
+                                                            "Los Derechos Humanos y el Derecho Familiar"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Teófilo Abdo Kuri</span><br>
+                                                                        <span class="fst-italic">Juez Séptimo de Proceso Oral en Materia Familiar de Enlace en el Centro de Justicia para las Mujeres de la Alcaldía Iztapalapa y de Tutela de Derechos Humanos de la Ciudad de México.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="glmdqK2vHT0">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 17-->
+                                            <!-- Begin Ponencia 18-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading18">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="true" aria-controls="collapse18" style="text-decoration: none;">
+                                                            "Cooperación Procesal, Retos y Avances para una Colombia Potencia Mundial de la Vida"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Cónsul General Andrés Camilo Hernández Ramírez</span><br>
+                                                                        <span class="fst-italic">Embajada de Colombia.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="18zgYvy7RHY">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 18-->
+                                            <!-- Begin Ponencia 19-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading19">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="true" aria-controls="collapse19" style="text-decoration: none;">
+                                                            "Convenio de Colaboración suscrito el 1° de diciembre de 2011 entre los Tribunales Agrarios y la Secretaría de Relaciones Exteriores, para agilizar la impartición de Justicia Agraria en Materia de Cartas Rogatorias"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Alberto Pérez Gasca</span><br>
+                                                                        <span class="fst-italic">Magistrado Numerario del Tribunal Agrario.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="J2OzPen_6fY">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 19-->
+                                            <!-- Begin Ponencia 20-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading20">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="true" aria-controls="collapse20" style="text-decoration: none;">
+                                                            "Acuerdo Bilaterales en Materia de Nacionalidad como Mecanismos de Solución de Conflictos"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse20" class="collapse" aria-labelledby="heading20" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtra. Anameli Dávalos Vázquez</span><br>
+                                                                        <span class="fst-italic">Dirección General de Asuntos Jurídicos de la Secretaría de Relaciones Exteriores.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="x1jFvidUx6Q">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 20-->
                                         </div>
                                     </li>
                                 </ul>
