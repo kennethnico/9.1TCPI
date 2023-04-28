@@ -43,14 +43,60 @@
     <script src="https://kit.fontawesome.com/f40904d23d.js" crossorigin="anonymous"></script>
     <!-- Main CSS File -->
     <link href="css/stylesMixed/style.css" rel="stylesheet">
+    <script>
+        /*Acciones a realizar para pase de asistencia*/
+        /*Función para evitar que pasen lista antes de tiempo*/
+        function listReadynt(d) {
+            var toastx = ' <div class="toast" id="nott" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false"><div class="toast-header"><strong class="mr-auto">9TCPI</strong><small class="text-muted">justo ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button></div><div class="toast-body" id="not">Aún no puede registrarse su asistencia.</div></div>'
+            console.log("Aún no ha llegado el momento.");
+            $('#toasts').html(toastx);
+            $('#nott').toast('show');
+        }
+        /*Funcion para evitar que pasen lista después de tiempo*/
+        function listReadyd(d) {
+            var toasty = ' <div class="toast" id="past" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false"><div class="toast-header"><strong class="mr-auto">9TCPI</strong><small class="text-muted">justo ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button></div><div class="toast-body" id="not">Ya no es posible registrar su asistencia.</div></div>'
+            console.log("Ya no es posible registrar su asistencia.");
+            $('#toasts').html(toasty);
+            $('#past').toast('show');
+        }
+        /*Funcion AJAX para pasar lista, recibe como parametro el nombre de la columna
+        en la que se insertará el registro (en este caso fue primerdia y segundodia)
+        */
+        function listReady(dday) {
+            $.ajax({
+                type: "POST",
+                url: "partials/checker.php",
+                dataType: "json",
+                data: {
+                    dia: dday
+                },
+                success: function (response) {
+                    console.log(response.success);
+                    console.log(response.why);
+                    console.log(response.day);
+                    console.log(response.r);
+                    var textoH = '<div class="toast" id="responseAjax1" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false"><div class="toast-header"><strong class="mr-auto">9TCPI</strong><small class="text-muted">justo ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button></div><div class="toast-body">' + response.r + '</div></div>';
+                    if (response.success) {
+                        $('#toasts').html(textoH);
+                        $('#responseAjax1').toast('show');
+                    } else {
+                        console.log("Ocurrió algún error en la comunicación con el Servidor: " + response.retorno);
+                        $('#toasts').html(textoH);
+                        $('#responseAjax1').toast('show');
+                    }
+                }
+            });
+        }
+    </script>
 </head>
 
 <body>
 <!-----------Boton flotante begin-------------->
 <div class="container_myBoton">
-    <a href="#">
+    <button type="button" class="btn" onclick="listReadynt('primerdia')">
+    <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
-    </a>
+    </button>
 </div>
 <!-----------boton flotante end-------------->
 <!-----------Modals begin-------------->
@@ -2103,6 +2149,8 @@
 
 <!-- JQUery y Boostrap -->
 <script src="vendor/jquery/jquery.min.js"></script>
+<!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 <!-- Vendor JS Files -->
 <!-- Vendor JS Files -->

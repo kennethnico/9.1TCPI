@@ -19,7 +19,7 @@
     width: 80px;
     height: 80px;
     transition: ease 1s;
-
+    border-radius: 50%;
 }
 
 @keyframes efecto_myBoton {

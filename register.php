@@ -206,9 +206,10 @@ function enviar_email($email, $nombre, $contrasena)
           <div style="color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.5;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;">
             <div class="txtTinyMce-wrapper" style="line-height: 1.5; font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; color: #555555; mso-line-height-alt: 18px;">
               <p style="margin: 0; font-size: 15px; line-height: 1.5; text-align: center; word-break: break-word; mso-line-height-alt: 23px; margin-top: 0; margin-bottom: 0;"><span style="color: #808389; font-size: 15px;">
-                Has completado tu registro al 9° Taller de Cooperación Procesal Internacional. Que se llevará a cabo del 19 al 21 de abril de 2023.
+                Has completado tu registro al 9° Taller de Cooperación Procesal Internacional. Que se llevará a cabo el 31 de mayo, y el 1° de Junio de 2023.
                 <br> Con tu registro, podrás ingresar al micrositio del evento, de igual manera accederás a las ponencias y material de apoyo que sea provisto por los organizadores.
-                <br>Al finalizar el evento, las instrucciones para recibir tu constancia de participación serán evaluadas y emitidas en el micrositio.
+                <br>Al finalizar el evento, las instrucciones para recibir tu constancia de participación serán emitidas en el micrositio.
+                <br>No obstante, te recordamos que para ser acredor a la Constancia de Participación debes de registrar tu asistencia todos los días del evento mediante el micrositio. <small>Se otorgará constancia a quien cumpla con el 100% de asistencia.</small>.
                 <br>A continuación se comparten los datos de acceso que has obtenido con tu registro:
                 <br> Usuario: '.$email.' <br> Contraseña: '.$contrasena.'<br>Te sugerimos <i>copiar y pegar</i> tu contraseña para evitar errores.</span></p>
             </div>
