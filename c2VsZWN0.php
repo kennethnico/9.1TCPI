@@ -1,11 +1,11 @@
 <?php
-#session_start();
-#require 'partials/base.php';
-#require 'partials/expires.php';
-#if(!isset($_SESSION['myuser']))
-#{
-#    echo'<script>window.location.href="index.html"</script>';
-#}
+session_start();
+require 'partials/base.php';
+require 'partials/expires.php';
+if(!isset($_SESSION['myuser']))
+{
+    echo'<script>window.location.href="index.html"</script>';
+}
 ?>
 <!doctype html>
 <!----SELECCIÓN DE MESA---->
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="./css/youtube_embed.css">
   <link rel="shortcut icon" href="assets/logos/ocho.png">
   <link rel="stylesheet" href="css/presets.css">
-  <title>Selección de mesa | 8° TCPI</title>
+  <title>Selección de mesa | 9° TCPI</title>
 </head>
 <body>
 
