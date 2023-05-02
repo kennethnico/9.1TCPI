@@ -41,6 +41,15 @@ if(!isset($_SESSION['myuser']))
     <script src="https://kit.fontawesome.com/f40904d23d.js" crossorigin="anonymous"></script>
     <!-- Main CSS File -->
     <link href="css/stylesMixed/style.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-91J0H2ERYV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-91J0H2ERYV');
+    </script>
 </head>
 
 <body>
