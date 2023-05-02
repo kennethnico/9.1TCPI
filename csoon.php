@@ -93,7 +93,7 @@ if(!isset($_SESSION['myuser']))
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
                 <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
                 <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
-                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/4e2ba25f63.html" style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/e299d58260.html" style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
             </div>
         </div>
     </section><!-- End Cta Section -->
