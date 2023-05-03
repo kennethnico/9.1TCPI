@@ -47,6 +47,7 @@
         /*Acciones a realizar para pase de asistencia*/
         /*Función para evitar que pasen lista antes de tiempo*/
         function listReadynt(d) {
+            //var toastxx = '<div aria-live="polite" aria-atomic="true" style="position: relative; min-width: 200px;"><div class="toast" id="nottt" style="position: absolute; top: 0; right: 200px;"><div class="toast-header"><img src="./assets/logos/9num.png" class="rounded mr-2" alt="9TCPI"> <strong class="mr-auto">Sistema</strong><small>Ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close"> <span aria-hidden="true">&times;</span></button></div><div class="toast-body">Aún no ha llegado el momento.</div></div></div>';
             var toastx = ' <div class="toast" id="nott" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false"><div class="toast-header"><strong class="mr-auto">9TCPI</strong><small class="text-muted">justo ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button></div><div class="toast-body" id="not">Aún no puede registrarse su asistencia.</div></div>'
             console.log("Aún no ha llegado el momento.");
             $('#toasts').html(toastx);
