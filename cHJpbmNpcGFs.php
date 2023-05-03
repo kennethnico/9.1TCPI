@@ -106,6 +106,7 @@
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
+<div style="position: absolute; bottom:0; right:120px;" id="toasts"></div>
 </div>
 <!-----------boton flotante end-------------->
 <!-----------Modals begin-------------->
