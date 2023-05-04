@@ -1,11 +1,11 @@
 <?php
-#session_start();
-#require 'partials/base.php';
-#require 'partials/expires.php';
-#if(!isset($_SESSION['myuser']))
-#{
-#    echo'<script>window.location.href="index.html"</script>';
-#}
+session_start();
+require 'partials/base.php';
+require 'partials/expires.php';
+if(!isset($_SESSION['myuser']))
+{
+    echo'<script>window.location.href="index.html"</script>';
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -103,7 +103,7 @@
 <body>
 <!-----------Boton flotante begin-------------->
 <div class="container_myBoton">
-    <button type="button" class="btn" onclick="listReadyd('primerdia')">
+    <button type="button" class="btn" onclick="listReady('primerdia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
