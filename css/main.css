@@ -320,7 +320,9 @@ footer{
 }
 .navigation ul li a .text{
     position: absolute;
-    color: transparent;
+    /*color: transparent;*/
+    top: 35px;
+    color: var(--clr);
 }
 .navigation ul li.active a .text{
     position: absolute;
