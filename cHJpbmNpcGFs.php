@@ -103,7 +103,7 @@ if(!isset($_SESSION['myuser']))
 <body>
 <!-----------Boton flotante begin-------------->
 <div class="container_myBoton">
-    <button type="button" class="btn" onclick="listReady('primerdia')">
+    <button type="button" class="btn" onclick="listReadynt('primerdia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
