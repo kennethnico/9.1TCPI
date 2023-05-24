@@ -198,7 +198,7 @@ function enviar_email($email, $nombre, $contrasena)
           <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 40px; padding-left: 40px; padding-top: 10px; padding-bottom: 10px; font-family: Arial, sans-serif"><![endif]-->
           <div style="color:#555555;line-height:1.2;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;">
             <div class="txtTinyMce-wrapper" style="line-height: 1.2; font-size: 12px; color: #555555; mso-line-height-alt: 14px;">
-              <p style="margin: 0; font-size: 30px; line-height: 1.2; text-align: center; word-break: break-word; mso-line-height-alt: 36px; margin-top: 0; margin-bottom: 0;"><span style="font-size: 30px; color: #2b303a;"><strong>¡Felicidades '.$nombre. '!</strong></span></p>
+              <p style="margin: 0; font-size: 30px; line-height: 1.2; text-align: center; word-break: break-word; mso-line-height-alt: 36px; margin-top: 0; margin-bottom: 0;"><span style="font-size: 30px; color: #2b303a;"><strong>¡Felicidades, '.$nombre. '!</strong></span></p>
             </div>
           </div>
           <!--[if mso]></td></tr></table><![endif]-->
@@ -209,7 +209,7 @@ function enviar_email($email, $nombre, $contrasena)
                 Has completado tu registro al 9° Taller de Cooperación Procesal Internacional. Que se llevará a cabo el 31 de mayo, y el 1° de Junio de 2023.
                 <br> Con tu registro, podrás ingresar al micrositio del evento, de igual manera accederás a las ponencias y material de apoyo que sea provisto por los organizadores.
                 <br>Al finalizar el evento, las instrucciones para recibir tu constancia de participación serán dadas a conocer mediante el micrositio.
-                <br>No obstante, te recordamos que para ser acredor a la Constancia de Participación debes de registrar tu asistencia todos los días del evento mediante el micrositio.<br><small>Se otorgará constancia a quien cumpla con el 100% de asistencia.</small>
+                <br>No obstante, te recordamos que para ser acreedor a la Constancia de Participación debes de registrar tu asistencia todos los días del evento mediante el micrositio.<br><small>Se otorgará constancia a quien cumpla con el 100% de asistencia.</small>
                 <br>A continuación se comparten los datos de acceso que has obtenido con tu registro:
                 <br> Usuario: ' .$email.' <br> Contraseña: '.$contrasena. '<br>Te sugerimos <i>copiar y pegar</i> tu contraseña para evitar errores.</span></p>
             </div>
