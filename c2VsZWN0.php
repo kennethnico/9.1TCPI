@@ -95,8 +95,8 @@ if(!isset($_SESSION['myuser']))
           #exit();
           ?>
           <script type="text/javascript">
-              //window.location.href = "cHJpbmNpcGFs.php";
-              window.location.href = "csoon.php";
+              window.location.href = "cHJpbmNpcGFs.php";
+              //window.location.href = "csoon.php";
           </script>
           ?>
           <!--<div class="container_c">
