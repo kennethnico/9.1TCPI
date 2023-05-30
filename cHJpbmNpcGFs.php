@@ -1941,7 +1941,7 @@
                                                 <div class="card-header bg-gray-color" id="heading20">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse20" aria-expanded="true" aria-controls="collapse20" style="text-decoration: none;">
-                                                            "Acuerdo Bilaterales en Materia de Nacionalidad como Mecanismos de Solución de Conflictos"
+                                                            Convenio de Colaboración suscrito el 1° de diciembre de 2011 entre los Tribunales Agrarios y la Secretaría de Relaciones Exteriores, para agilizar la impartición de Justicia Agraria en Materia de Cartas Rogatorias"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1968,9 +1968,9 @@
                                             <!-- End Ponencia 20-->
                                             <!-- Begin Ponencia 21-->
                                             <div class="card">
-                                                <div class="card-header bg-gray-color" id="heading21">
+                                                <div class="card-header bg-second-color" id="heading21">
                                                     <h2 class="mb-0">
-                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21" style="text-decoration: none;">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21" style="text-decoration: none;">
                                                             "Acuerdo Bilaterales en Materia de Nacionalidad como Mecanismos de Solución de Conflictos"
                                                         </button>
                                                     </h2>
