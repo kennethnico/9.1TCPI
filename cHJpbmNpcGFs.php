@@ -1299,7 +1299,7 @@ if(!isset($_SESSION['myuser']))
                                             <div class="container">
                                                 <h1 class="display-6">Inauguración</h1>
                                                 <p class="lead">Dr. Rafael Guerra Álvarez</p>
-                                                <p class="small">Magistrado Presidente de la Comisión Nacional de Tribunales Superiores de Justicia de los Estados Unidos Mexicanos</p>
+                                                <p class="small">Magistrado Presidente de la Comisión Nacional de Tribunales Superiores de Justicia de los Estados Unidos Mexicanos y del Poder Judicial de la Ciudad de México</p>
                                                 <p class="lead">Dirección General de Asuntos Jurídicos</p>
                                                 <p class="small">Secretaría de Relaciones Exteriores</p>
                                                 <button type="button" class="btn btn-secondary btn-sm mb-20 bg-primary-color" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ver mensaje</button>
