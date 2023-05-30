@@ -1,11 +1,11 @@
 <?php
-session_start();
-require 'partials/base.php';
-require 'partials/expires.php';
-if(!isset($_SESSION['myuser']))
-{
-    echo'<script>window.location.href="index.html"</script>';
-}
+#session_start();
+#require 'partials/base.php';
+#require 'partials/expires.php';
+#if(!isset($_SESSION['myuser']))
+#{
+#    echo'<script>window.location.href="index.html"</script>';
+#}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -101,7 +101,7 @@ if(!isset($_SESSION['myuser']))
 </head>
 
 <body>
-<!-----------Boton flotante begin-------------->
+<!-----------Boton flotante begin--------------><!---------------------PASE DE LISTA------------->
 <div class="container_myBoton">
     <button type="button" class="btn" onclick="listReadynt('primerdia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
@@ -856,7 +856,7 @@ if(!isset($_SESSION['myuser']))
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
                <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
                <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
-                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/e299d58260.html" style="border: 1px solid lightgray; width: 100%; height: 600px;"></iframe>
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/2d7fc65d93.html" style="border: 0px; width: 100%; height: 600px;"></iframe>
             </div>
         </div>
     </section><!-- End Cta Section -->
@@ -1306,7 +1306,7 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="collapse" id="collapseExample">
                                                     <div class="card card-body">
                                                         <!-- 1. Video Wrapper Container -->
-                                                        <div class="embed-youtube" data-video-id="###">
+                                                        <div class="embed-youtube" data-video-id="mzpjiUpHobY">
                                                             <!-- 2. The preview button that will contain the Play icon -->
                                                             <div class="embed-youtube-play"></div>
                                                         </div>
@@ -1431,41 +1431,11 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="card-header bg-second-color" id="heading3">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3" style="text-decoration: none;">
-                                                            Por Confirmar
-                                                        </button>
-                                                    </h2>
-                                                </div>
-                                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#miercoles31">
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-8 offset-2 align-middle">
-                                                                <div class="align-center">
-                                                                    <p class="font-primary-color text-start">
-                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dr. Raúl Aparicio Alba</span><br>
-                                                                        <span class="fst-italic">Presidente de la Asociación Derecho Internacional Privado y Derecho Comparado de Panamá (ADIPCOP).</span>
-                                                                    </p>
-                                                                    <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
-                                                                            <div class="embed-youtube-play"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Ponencia 3-->
-                                            <!-- Begin Ponencia 4-->
-                                            <div class="card">
-                                                <div class="card-header bg-gray-color" id="heading4">
-                                                    <h2 class="mb-0">
-                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4" style="text-decoration: none;">
                                                             "Práctica mexicana sobre inmunidades y Derecho Procesal"
                                                         </button>
                                                     </h2>
                                                 </div>
-                                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#miercoles31">
+                                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
@@ -1485,13 +1455,43 @@ if(!isset($_SESSION['myuser']))
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- End Ponencia 3-->
+                                            <!-- Begin Ponencia 4-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading4">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4" style="text-decoration: none;">
+                                                            "La Gestación Sustituta y Subrogada en Tabasco"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mgda. María Isabel Solís García</span><br>
+                                                                        <span class="fst-italic">Magistrada Integrante de la Segunda Sala Civil del Tribunal Superior de Justicia del Estado de Tabasco.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="3L8UuJ33aeo">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <!-- End Ponencia 4-->
                                             <!-- Begin Ponencia 5-->
                                             <div class="card">
                                                 <div class="card-header bg-second-color" id="heading5">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5" style="text-decoration: none;">
-                                                            "Análisis del Tratado de Medellín relativo a la transmisión electrónica de soluciones de cooperación jurídica internacional entre autoridades centrales"
+                                                            "Problemáticas en el Procedimiento de Extradición"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1501,11 +1501,11 @@ if(!isset($_SESSION['myuser']))
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                        <span class="font-ponencia">Ponentes: </span><span class="font-ponentes">Dra. María José Rodríguez Rocha<br>Dr. Manuel Ferreira</span><br>
-                                                                        <span class="fst-italic">Autoridad Central de Cooperación Jurídica Internacional, Ministerio de Educación y Cultura de Uruguay.</span>
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mgdo. Ricardo Paredes Calderón</span><br>
+                                                                        <span class="fst-italic">Tercer Tribunal Colegiado en Materia Penal del Segundo Circuito con residencia en Toluca, Estado de México del Consejo de la Judicatura Federal.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="4HjgyyFzqFk">
+                                                                        <div class="embed-youtube" data-video-id="ulehyigkMpc">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1581,7 +1581,7 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="card-header bg-gray-color" id="heading8">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8" style="text-decoration: none;">
-                                                            Por Confirmar
+                                                            "Prisión Preventiva Oficiosa"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1595,7 +1595,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Universidad Nacional Autónoma de México.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="#####">
+                                                                        <div class="embed-youtube" data-video-id="GxSrVymsQ7E">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1641,7 +1641,7 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="card-header bg-gray-color" id="heading10">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10" style="text-decoration: none;">
-                                                            Por Confirmar
+                                                            "Derecho al olvido, lugar de México en el mundo"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1651,11 +1651,11 @@ if(!isset($_SESSION['myuser']))
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Jorge Roberto Ordóñez Escobar</span><br>
-                                                                        <span class="fst-italic">Consultor en Litigio Constitucional y Asuntos Públicos.</span>
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Ricardo Vázquez Rosas</span><br>
+                                                                        <span class="fst-italic">Dirección General de Asuntos Jurídicos de la Secretaría de Relaciones Exteriores.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="#####">
+                                                                        <div class="embed-youtube" data-video-id="VkOYT3N_60k">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1715,7 +1715,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Consejero de la Judicatura de la Ciudad de México.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="#####">
+                                                                        <div class="embed-youtube" data-video-id="EgmHWfRmAuI">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1731,7 +1731,7 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="card-header bg-second-color" id="heading13">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="true" aria-controls="collapse13" style="text-decoration: none;">
-                                                            Por Confirmar
+                                                            "Análisis del Tratado de Medellín relativo a la transmisión electrónica de soluciones de cooperación jurídica internacional entre autoridades centrales"
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1741,11 +1741,11 @@ if(!isset($_SESSION['myuser']))
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dra. Graciela Tagle de Ferreyra</span><br>
-                                                                        <span class="fst-italic">Representante de la Red Internacional de Jueces de la Haya de la República de Argentina, Coordinadora de la Oficina de Cooperación Jurídica Internacional del Tribunal Superior de Justicia de la Provincia de Córdoba; y Punto de Contacto de la Red Iberoamericana de Cooperación Jurídica Internacional (IberRed).</span>
+                                                                        <span class="font-ponencia">Ponentes: </span><span class="font-ponentes">Dra. María José Rodríguez Rocha<br>Dr. Manuel Ferreira</span><br>
+                                                                        <span class="fst-italic">Autoridad Central de Cooperación Jurídica Internacional, Ministerio de Educación y Cultura de Uruguay.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="4HjgyyFzqFk">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1791,11 +1791,41 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="card-header bg-second-color" id="heading15">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="true" aria-controls="collapse15" style="text-decoration: none;">
-                                                            "Aplicación del Derecho Extranjero en México y el Código Nacional de Procedimientos Civiles y Familiares"
+                                                            "El repudio y la aversión a lo étnico, confrontado a la discriminación racial en México"
                                                         </button>
                                                     </h2>
                                                 </div>
                                                 <div id="collapse15" class="collapse" aria-labelledby="heading15" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Dra. Roxana Rosas Fregoso</span><br>
+                                                                        <span class="fst-italic">Investigadora ENID/IIJ UNAM.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="WpPC5kTH3xU">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 15-->
+                                            <!-- Begin Ponencia 16-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading16">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16" style="text-decoration: none;">
+                                                            "Aplicación del Derecho Extranjero en México y el Código Nacional de Procedimientos Civiles y Familiares"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
@@ -1815,27 +1845,27 @@ if(!isset($_SESSION['myuser']))
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- End Ponencia 15-->
-                                            <!-- Begin Ponencia 16-->
+                                            <!-- End Ponencia 16-->
+                                            <!-- Begin Ponencia 17-->
                                             <div class="card">
-                                                <div class="card-header bg-gray-color" id="heading16">
+                                                <div class="card-header bg-second-color" id="heading17">
                                                     <h2 class="mb-0">
-                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="true" aria-controls="collapse16" style="text-decoration: none;">
-                                                            "Derecho a vivir en Familia de Niñas, Niños y Adolescentes"
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17" style="text-decoration: none;">
+                                                            "El Orden Público Internacional y la Convención de la Haya de 1980"
                                                         </button>
                                                     </h2>
                                                 </div>
-                                                <div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#miercoles31">
+                                                <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtra. Dulce María Mejía Cortes</span><br>
-                                                                        <span class="fst-italic">Dirección General de Representación Jurídica y Restitución de Derechos de Niñas, Niños y Adolescentes en la Procuraduría Federal de Protección de Niñas, Niños y Adolescentes en el Sistema Nacional para el Desarrollo Integral de la Familia.</span>
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mgdo. Oscar Gregorio Cervera Rivero</span><br>
+                                                                        <span class="fst-italic">Magistrado de la Segunda Sala Familiar del Tribunal Superior de Justicia de la Ciudad de México.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="######">
+                                                                        <div class="embed-youtube" data-video-id="glmdqK2vHT0">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1845,17 +1875,17 @@ if(!isset($_SESSION['myuser']))
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- End Ponencia 16-->
-                                            <!-- Begin Ponencia 17-->
+                                            <!-- End Ponencia 17-->
+                                            <!-- Begin Ponencia 18-->
                                             <div class="card">
-                                                <div class="card-header bg-second-color" id="heading17">
+                                                <div class="card-header bg-gray-color" id="heading18">
                                                     <h2 class="mb-0">
-                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="true" aria-controls="collapse17" style="text-decoration: none;">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="true" aria-controls="collapse18" style="text-decoration: none;">
                                                             "Los Derechos Humanos y el Derecho Familiar"
                                                         </button>
                                                     </h2>
                                                 </div>
-                                                <div id="collapse17" class="collapse" aria-labelledby="heading17" data-parent="#miercoles31">
+                                                <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
@@ -1875,17 +1905,17 @@ if(!isset($_SESSION['myuser']))
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- End Ponencia 17-->
-                                            <!-- Begin Ponencia 18-->
+                                            <!-- End Ponencia 18-->
+                                            <!-- Begin Ponencia 19-->
                                             <div class="card">
-                                                <div class="card-header bg-gray-color" id="heading18">
+                                                <div class="card-header bg-second-color" id="heading19">
                                                     <h2 class="mb-0">
-                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="true" aria-controls="collapse18" style="text-decoration: none;">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="true" aria-controls="collapse19" style="text-decoration: none;">
                                                             "Cooperación Procesal, Retos y Avances para una Colombia Potencia Mundial de la Vida"
                                                         </button>
                                                     </h2>
                                                 </div>
-                                                <div id="collapse18" class="collapse" aria-labelledby="heading18" data-parent="#miercoles31">
+                                                <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
@@ -1896,36 +1926,6 @@ if(!isset($_SESSION['myuser']))
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
                                                                         <div class="embed-youtube" data-video-id="18zgYvy7RHY">
-                                                                            <div class="embed-youtube-play"></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Ponencia 18-->
-                                            <!-- Begin Ponencia 19-->
-                                            <div class="card">
-                                                <div class="card-header bg-second-color" id="heading19">
-                                                    <h2 class="mb-0">
-                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="true" aria-controls="collapse19" style="text-decoration: none;">
-                                                            "Convenio de Colaboración suscrito el 1° de diciembre de 2011 entre los Tribunales Agrarios y la Secretaría de Relaciones Exteriores, para agilizar la impartición de Justicia Agraria en Materia de Cartas Rogatorias"
-                                                        </button>
-                                                    </h2>
-                                                </div>
-                                                <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#miercoles31">
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-8 offset-2 align-middle">
-                                                                <div class="align-center">
-                                                                    <p class="font-primary-color text-start">
-                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Alberto Pérez Gasca</span><br>
-                                                                        <span class="fst-italic">Magistrado Numerario del Tribunal Agrario.</span>
-                                                                    </p>
-                                                                    <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="J2OzPen_6fY">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1946,6 +1946,36 @@ if(!isset($_SESSION['myuser']))
                                                     </h2>
                                                 </div>
                                                 <div id="collapse20" class="collapse" aria-labelledby="heading20" data-parent="#miercoles31">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Mtro. Alberto Pérez Gasca</span><br>
+                                                                        <span class="fst-italic">Magistrado Numerario del Tribunal Agrario.</span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="J2OzPen_6fY">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 20-->
+                                            <!-- Begin Ponencia 21-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading21">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21" style="text-decoration: none;">
+                                                            "Acuerdo Bilaterales en Materia de Nacionalidad como Mecanismos de Solución de Conflictos"
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse21" class="collapse" aria-labelledby="heading21" data-parent="#miercoles31">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-8 offset-2 align-middle">
