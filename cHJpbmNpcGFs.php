@@ -1,11 +1,11 @@
 <?php
-#session_start();
-#require 'partials/base.php';
-#require 'partials/expires.php';
-#if(!isset($_SESSION['myuser']))
-#{
-#    echo'<script>window.location.href="index.html"</script>';
-#}
+session_start();
+require 'partials/base.php';
+require 'partials/expires.php';
+if(!isset($_SESSION['myuser']))
+{
+    echo'<script>window.location.href="index.html"</script>';
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
