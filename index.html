@@ -147,26 +147,27 @@
                     <div class="container">
                         <div class="form">
                             <img src="./assets/logos/logo_sec.png" class="rounded mx-auto d-block" alt="..." style="max-height: 120px; height: 120px;">
-                            <h2>Registro</h2>
+                            <h2 style="margin-bottom: 10px;">Registro</h2>
+                            <span class="small" style="margin-top: 1px!important; text-align: center;" >Tienes hasta el 30 de mayo a las 23:59 hrs para realizar tu registro.</span>
                             <form method="post" class="regForm">
                                 <div class="inputBox">
-                                    <input type="text" name="nombre" id="name" required="required" autocomplete="off">
+                                    <input type="text" name="nombre" id="name" required="required" autocomplete="off" disabled>
                                     <span>Nombre Completo</span>
                                 </div>
                                 <div class="inputBox">
-                                    <input type="text" name="dependencia" id="depen" required="required" autocomplete="off">
+                                    <input type="text" name="dependencia" id="depen" required="required" autocomplete="off" disabled>
                                     <span>Dependencia</span>
                                 </div>
                                 <div class="inputBox">
-                                    <input type="email" name="email" id="em" required="required" autocomplete="off">
+                                    <input type="email" name="email" id="em" required="required" autocomplete="off" disabled>
                                     <span>Email</span>
                                 </div>
                                 <div class="inputBox">
-                                    <input type="text" name="cel" id="cl" required="required" autocomplete="off">
+                                    <input type="text" name="cel" id="cl" required="required" autocomplete="off" disabled>
                                     <span>Teléfono</span>
                                 </div>
                                 <div class="inputBox">
-                                    <input type="text" name="pais" id="pa" required="required" autocomplete="off">
+                                    <input type="text" name="pais" id="pa" required="required" autocomplete="off" disabled>
                                     <span>País</span>
                                 </div>
                                 <!--<div class="inputBox">
@@ -179,7 +180,7 @@
                                 </div>-->
                                 <div class="inputBox">
                                     <div id="errormessage" class="unshowed"></div>
-                                    <input type="submit" id="sender" value="Enviar" disabled>
+                                    <input type="submit" id="sender" value="Enviar">
                                 </div>
                             </form>
                         </div>
