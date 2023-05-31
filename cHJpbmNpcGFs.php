@@ -103,7 +103,7 @@ if(!isset($_SESSION['myuser']))
 <body>
 <!-----------Boton flotante begin--------------><!---------------------PASE DE LISTA------------->
 <div class="container_myBoton">
-    <button type="button" class="btn" onclick="listReadynt('primerdia')">
+    <button type="button" class="btn" onclick="listReady('primerdia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
@@ -1475,7 +1475,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Magistrada Integrante de la Segunda Sala Civil del Tribunal Superior de Justicia del Estado de Tabasco.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="3L8UuJ33aeo">
+                                                                        <div class="embed-youtube" data-video-id="QPOXRj08G9o">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1655,7 +1655,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Dirección General de Asuntos Jurídicos de la Secretaría de Relaciones Exteriores.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="VkOYT3N_60k">
+                                                                        <div class="embed-youtube" data-video-id="EbQwIaqOJfg">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1715,7 +1715,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Consejero de la Judicatura de la Ciudad de México.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="EgmHWfRmAuI">
+                                                                        <div class="embed-youtube" data-video-id="uQtfzEIjfHo">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1805,7 +1805,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Investigadora ENID/IIJ UNAM.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="WpPC5kTH3xU">
+                                                                        <div class="embed-youtube" data-video-id="ybQ8Ofc9l9w">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1865,7 +1865,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="fst-italic">Magistrado de la Segunda Sala Familiar del Tribunal Superior de Justicia de la Ciudad de México.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="glmdqK2vHT0">
+                                                                        <div class="embed-youtube" data-video-id="4CLwzx9yglg">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>

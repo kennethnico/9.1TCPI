@@ -17,7 +17,7 @@ if($t1 == 0){
         echo json_encode(array('success' => false, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd,'r' => 'Ocurrió un error en el INSERT, notifique al Administrador.'));
     }else{
         //Se registró asistencia
-        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd,'r' => 'Se registró su asistencia correctamente.'));
+        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd,'r' => 'Se registró su asistencia del primer día correctamente.'));
     }
 }
 else{
