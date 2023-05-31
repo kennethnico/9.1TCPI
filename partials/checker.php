@@ -22,7 +22,7 @@ if($t1 == 0){
 }
 else{
     if($t1[$dd] != null){
-        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd, 'r' => 'Ya se ha registrado su asistencia. Gracias.'));
+        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd, 'r' => 'El registro del 2° día se habilitará al finalizar la 1a Mesa de Análisis.'));
     }else{
         #echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd, 'r' => 'No ha pasado lista'));
         $t3 = editT($dd,$n,$e,$u);
