@@ -1745,7 +1745,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!----Fin Clausura---->
+                                            <!----Fin Anuncio---->
+                                            <!----Begin Mesa 1---->
                                             <div class="card">
                                                 <div class="card-header bg-second-color" id="headingOne">
                                                     <h2 class="mb-0">
@@ -1774,8 +1775,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!------Fin primera Mesa------->
-
+                                            <!------End Mesa 1------->
                                             <!-- Begin Mesa 2-->
                                             <div class="card">
                                                 <div class="card-header bg-gray-color" id="heading2">
@@ -1795,7 +1795,7 @@
                                                                         <span class="font-ponencia">Horario: </span><span class="font-ponentes">10:45 hrs. - 13:00 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="RQLa9zDJ6Ao">
+                                                                        <div class="embed-youtube" data-video-id="####">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1806,7 +1806,96 @@
                                                 </div>
                                             </div>
                                             <!-- End Mesa 2-->
-
+                                            <!-- Begin Mesa 3 - Pendiente Video-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading3">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3" style="text-decoration: none;">
+                                                            TERCERA MESA DE ANÁLISIS
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#jueves1">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Tema: </span><span class="font-ponentes">Extradición de Adolescentes en Conflicto con la Ley Penal</span><br>
+                                                                        <span class="font-ponencia">Horario: </span><span class="font-ponentes">13:15 hrs. - 14:45 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Mesa 3-->
+                                            <!-- Begin Mesa 4-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading4">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4" style="text-decoration: none;">
+                                                            CUARTA MESA DE ANÁLISIS
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#jueves1">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Tema: </span><span class="font-ponentes">Subrogación Materna y Adopción (problemáticas)</span><br>
+                                                                        <span class="font-ponencia">Horario: </span><span class="font-ponentes">16:00 hrs. - 17:30 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Mesa 4-->
+                                            <!-- Begin Ponencia 5-->
+                                            <div class="card">
+                                                <div class="card-header bg-second-color" id="heading5">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-white collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5" style="text-decoration: none;">
+                                                            QUINTA MESA DE ANÁLISIS
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#jueves1">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Tema: </span><span class="font-ponentes">Fe Pública y Actos Jurídicos en las Representaciones Diplomáticas Consulares</span><br>
+                                                                        <span class="font-ponencia">Horario: </span><span class="font-ponentes">17:45 hrs. - 19:15 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Ponencia 5-->
                                         </div>
                                     </li>
                                 </ul>
