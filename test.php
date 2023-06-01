@@ -104,10 +104,10 @@ if(!isset($_SESSION['myuser']))
 <!-----------Boton flotante begin--------------><!---------------------PASE DE LISTA------------->
 <div class="container_myBoton">
     <button type="button" class="btn" onclick="listReady('segundodia')">
-    <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
+        <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
-<div style="position: absolute; bottom:0; right:120px;" id="toasts"></div>
+    <div style="position: absolute; bottom:0; right:120px;" id="toasts"></div>
 </div>
 <!-----------boton flotante end-------------->
 <!-----------Modals begin-------------->
@@ -594,14 +594,14 @@ if(!isset($_SESSION['myuser']))
     </div>
     -->
     <div class="container text-start position-relative">
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="200">
-            <h1>9° Taller de Cooperación<br>Procesal Internacional</h1>
-            <h2>31 de mayo, 1 y 2 de junio, Ciudad de México</h2>
-            <a href="#about" class="btn-get-started scrollto">Comenzar</a>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="200">
-            <!--
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="200">
+                <h1>9° Taller de Cooperación<br>Procesal Internacional</h1>
+                <h2>31 de mayo, 1 y 2 de junio, Ciudad de México</h2>
+                <a href="#about" class="btn-get-started scrollto">Comenzar</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="200">
+                <!--
             <div class="d-flex justify-content-center align-items-center p-4 bg-white bg-opacity-25 rounded-3">
                 <span class="display-6 lh-1 font-color-secondary mb-0"><i class="bi bi-exclamation-diamond-fill"></i></span>
                 <div class="ms-4 h6 fw-normal mb-0">
@@ -613,8 +613,8 @@ if(!isset($_SESSION['myuser']))
                 </div>
             </div>
             -->
+            </div>
         </div>
-    </div>
     </div>
 </section><!-- End Hero -->
 
@@ -879,8 +879,8 @@ if(!isset($_SESSION['myuser']))
                 <p> Conoce la programación de las ponencias y mesas de trabajo del 9° Taller de Cooperación Procesal Internacional.</p>
                 <!--<a class="cta-btn" href="#"> - </a>-->
                 <!--<a href="https://online.flippingbook.com/view/1004615338/" class="fbo-embed" data-fbo-id="0db58b4912" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Programa 9° TCPI</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=1004615338"></script>-->
-               <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
-               <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
+                <!-- <iframe style="width:900px;height:500px" src="https://online.fliphtml5.com/cjczl/kufg/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
+                <!--<iframe style="width:900px;height:500px" src="https://flipbookpdf.net/web/site/3572b9b5e7b9d069b8a38a67a1926a7cdf142941202304.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>-->
                 <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/2d7fc65d93.html" style="border: 0px; width: 100%; height: 600px;"></iframe>
             </div>
         </div>
@@ -1127,7 +1127,7 @@ if(!isset($_SESSION['myuser']))
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                       <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Katerina V. Ossenova</span><br>
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Katerina V. Ossenova</span><br>
                                                                         <span class="fst-italic"><span>Oficina de Asistencia Judicial Internacional, División Civil, Departamento de Justicia de los Estados Unidos de América.</span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
@@ -1157,7 +1157,7 @@ if(!isset($_SESSION['myuser']))
                                                             <div class="col-8 offset-2 align-middle">
                                                                 <div class="align-center">
                                                                     <p class="font-primary-color text-start">
-                                                                       <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Christine Brennan</span><br>
+                                                                        <span class="font-ponencia">Ponente: </span><span class="font-ponentes">Lic. Christine Brennan</span><br>
                                                                         <span class="fst-italic">Abogada a cargo de Litigio Latinoamericano, Departamento de Justicia de EE. UU., Oficina de Litigios Extranjeros, Embajada de los Estados Unidos en Panamá.</span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
@@ -2098,3 +2098,4 @@ if(!isset($_SESSION['myuser']))
 </body>
 
 </html>
+
