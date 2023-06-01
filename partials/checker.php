@@ -17,12 +17,12 @@ if($t1 == 0){
         echo json_encode(array('success' => false, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd,'r' => 'Ocurrió un error en el INSERT, notifique al Administrador.'));
     }else{
         //Se registró asistencia
-        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd,'r' => 'Se registró su asistencia del primer día correctamente.'));
+        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd,'r' => 'Se registró su asistencia del segundo día correctamente.'));
     }
 }
 else{
     if($t1[$dd] != null){
-        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd, 'r' => 'El registro del 2° día se habilitará al finalizar la 1a Mesa de Análisis.'));
+        echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd, 'r' => 'Ya se ha registrado su asistencia anteriormente.'));
     }else{
         #echo json_encode(array('success' => true, 'why' => date("d/m/Y H:i:s a"), 'day' => $dd, 'r' => 'No ha pasado lista'));
         $t3 = editT($dd,$n,$e,$u);
