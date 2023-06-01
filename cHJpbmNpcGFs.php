@@ -103,7 +103,7 @@ if(!isset($_SESSION['myuser']))
 <body>
 <!-----------Boton flotante begin--------------><!---------------------PASE DE LISTA------------->
 <div class="container_myBoton">
-    <button type="button" class="btn" onclick="listReadynt('segundodia')">
+    <button type="button" class="btn" onclick="listReady('segundodia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
@@ -1078,8 +1078,8 @@ if(!isset($_SESSION['myuser']))
                     <div class="col-12">
                         <nav>
                             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                                <a class="nav-link active font-primary-color" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="false">31 de Mayo</a>
-                                <a class="nav-link font-primary-color" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="true">1 de Junio</a>
+                                <a class="nav-link font-primary-color" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="false">31 de Mayo</a>
+                                <a class="nav-link active font-primary-color" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="true">1 de Junio</a>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
@@ -1736,7 +1736,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <div class="container">
                                                                             <h1 class="display-6">Mesas de Trabajo</h1>
                                                                             <p class="lead font-primary-color">Sigue la transmisión en vivo el<br> 1° de Junio de 2023<br> A partir de las 09:00 hrs.</p>
-                                                                            <span class="fst-italic"><span>En caso de no mostrarse correctamente el contenido, se sugiere actualice la página (Presione F5).</span></span>
+                                                                            <span class="fst-italic"><span>En caso de no mostrarse correctamente el contenido o no poder registrar su asistencia, actualice la página presionando F5 (en PC/Laptop) o el ícono ↻.</span></span>
                                                                         </div>
                                                                     </div>
                                                                 </li>
@@ -1795,7 +1795,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="font-ponencia">Horario: </span><span class="font-ponentes">10:45 hrs. - 13:00 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="06az_d7yOLQ">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
@@ -1825,7 +1825,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="font-ponencia">Horario: </span><span class="font-ponentes">13:15 hrs. - 14:45 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="lEoBZCX69ck">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
