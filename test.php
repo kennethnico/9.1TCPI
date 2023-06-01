@@ -601,18 +601,17 @@ if(!isset($_SESSION['myuser']))
                 <a href="#about" class="btn-get-started scrollto">Comenzar</a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="200">
-                <!--
             <div class="d-flex justify-content-center align-items-center p-4 bg-white bg-opacity-25 rounded-3">
                 <span class="display-6 lh-1 font-color-secondary mb-0"><i class="bi bi-exclamation-diamond-fill"></i></span>
                 <div class="ms-4 h6 fw-normal mb-0">
                     <div class="d-flex">
                         <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-delay="300" data-purecounter-duration="0">6</h5>
-                        <span class="mb-0 h5">K+</span>
+                        <span class="mb-0 h5 font-color-white">Apreciable <?= $_SESSION['myuser'];?></span>
                     </div>
-                    <p class="mb-0">Apreciable <?$_SESSION['myuser']?></p>
+                    <p class="mb-0">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo emitirá a cada uno de los inscritos su constancia de participación correspondiente.</p>
                 </div>
             </div>
-            -->
+
             </div>
         </div>
     </div>
