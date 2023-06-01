@@ -1078,12 +1078,12 @@ if(!isset($_SESSION['myuser']))
                     <div class="col-12">
                         <nav>
                             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                                <a class="nav-link active font-primary-color" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="true">31 de Mayo</a>
-                                <a class="nav-link font-primary-color" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="false">1 de Junio</a>
+                                <a class="nav-link active font-primary-color" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="false">31 de Mayo</a>
+                                <a class="nav-link font-primary-color" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="true">1 de Junio</a>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab" aria-selected="false">
+                            <div class="tab-pane fade" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <div class="accordion" id="miercoles31">
@@ -1721,7 +1721,7 @@ if(!isset($_SESSION['myuser']))
                                     </li>
                                 </ul>
                             </div>
-                            <div class="tab-pane fade show active" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab" aria-selected="true">
+                            <div class="tab-pane fade show active" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <div class="accordion" id="jueves1">
