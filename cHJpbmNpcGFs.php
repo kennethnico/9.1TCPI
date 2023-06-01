@@ -103,7 +103,7 @@ if(!isset($_SESSION['myuser']))
 <body>
 <!-----------Boton flotante begin--------------><!---------------------PASE DE LISTA------------->
 <div class="container_myBoton">
-    <button type="button" class="btn" onclick="listReadynt('primerdia')">
+    <button type="button" class="btn" onclick="listReadynt('segundodia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
@@ -1083,7 +1083,7 @@ if(!isset($_SESSION['myuser']))
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+                            <div class="tab-pane fade" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab" aria-selected="false">
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <div class="accordion" id="miercoles31">
@@ -1721,7 +1721,7 @@ if(!isset($_SESSION['myuser']))
                                     </li>
                                 </ul>
                             </div>
-                            <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+                            <div class="tab-pane fade show active" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab" aria-selected="true">
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         <div class="accordion" id="jueves1">
@@ -1765,7 +1765,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="font-ponencia">Horario: </span><span class="font-ponentes">09:00 hrs. - 10:30 hrs.</span><span class="fst-italic"><span> Horario central UTC-6 GMT-6.</span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="####">
+                                                                        <div class="embed-youtube" data-video-id="Ni2v3BtDoSc">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
