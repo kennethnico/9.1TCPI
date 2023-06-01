@@ -8,6 +8,7 @@ if (isset($_SESSION['myuser'])) //Comprueba que no exista una sesión
     echo json_encode(array('success' => true, 'why' => 'Sesión ya iniciada'));
 }else{
     $define = get_ss($key_id,$key_ps);
+    $define2 = get_hours($key_id);
     if($define == 0)
     {
         echo json_encode(array('success' => false, 'why' => 'ID o contraseña erróneas', 'id' => $key_id, 'pas' => $key_ps));
@@ -20,6 +21,12 @@ if (isset($_SESSION['myuser'])) //Comprueba que no exista una sesión
         }
         else{
             $_SESSION['asig']= "CM";
+        }
+        if($define2 == 0){
+            $_SESSION['registraste']= "No se encontraron sus registros de asistencia";
+        }else{
+            $_SESSION['primerdia'] = $define2['primerdia'];
+            $_SESSION['segundodia'] = $define2['segundodia'];
         }
         $_SESSION['ide'] = $define['id'];
         $_SESSION['myuser'] = $define['nombre'];
@@ -44,6 +51,23 @@ function get_ss($id,$ps){
     $records = $conn->prepare('SELECT * FROM tcpi_nueve WHERE email = :email AND passsword = :pass');
     $records->bindParam(':email', $id);
     $records->bindParam(':pass', $ps);
+    $records->execute();
+    $results = $records->fetch(PDO::FETCH_ASSOC);
+    if (count($results) > 0 )
+    {
+        return $results;
+    }else{
+        return 0;
+    }
+}
+
+#######################################
+# Obtiene pases de lista              #
+#######################################
+function get_hours($id){
+    require 'base.php';
+    $records = $conn->prepare('SELECT * FROM checklist_nueve where email = :email');
+    $records->bindParam(':email', $id);
     $records->execute();
     $results = $records->fetch(PDO::FETCH_ASSOC);
     if (count($results) > 0 )
