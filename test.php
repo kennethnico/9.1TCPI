@@ -608,7 +608,9 @@ if(!isset($_SESSION['myuser']))
                         <!--<h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-delay="300" data-purecounter-duration="0">6</h5>-->
                         <span class="mb-0 h5 font-color-secondary">Apreciable <?= $_SESSION['myuser'];?></span>
                     </div>
-                    <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo emitirá a cada uno de los inscritos su constancia de participación correspondiente.</p>
+                    <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo emitirá a cada uno de los inscritos su constancia de participación correspondiente.</p><br>
+                    <span class="mb-0 small font-color-secondary">31 mayo: <?= $_SESSION['primerdia'];?></span><br>
+                    <span class="mb-0 font-color-secondary">1° junio: <?= $_SESSION['segundodia'];?></span>
                 </div>
             </div>
 
