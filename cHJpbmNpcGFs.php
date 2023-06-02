@@ -552,6 +552,27 @@ if(!isset($_SESSION['myuser']))
     </div>
 </div>
 <!----------------------------------->
+<!-----**** Mag. Sara Patricia Orea Ochoa ****----->
+<div class="modal fade" id="modal20" tabindex="-1" role="dialog" aria-labelledby="modal120" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-color">
+                <h5 class="modal-title font-white" id="modal20LongTitle"><img src="./assets/logos/logo_sec.png" alt="9TCPI" width="80px">&nbsp;&nbsp;Mag. Sara Patricia Orea Ochoa</h5>
+                <button type="button" class="close font-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="text-justify">La magistrada Sara Patricia Orea, es egresada de la Facultad de Estudios Superiores de Acatlán de la Máxima Casa de Estudios, Universidad Nacional Autónoma de México. Es Maestra en Política Criminal por la Universidad Nacional Autónoma de México. Cursó el master Internacional de Derecho Penal, Constitución y Derecho en la Universidad de Barcelona y la Universidad Autónoma Metropolitana. Es especialista en Juicio Oral y Proceso Penal Acusatorio, por el Instituto Nacional de Ciencias Penales. Cuenta con varias certificaciones Internacionales, entre ellas en Convencionalidad, Derechos Humanos, Tratados Internacionales y su aplicación en el Nuevo Proceso Penal por la Universidad Pompeu Fabra Barcelona; Protección Internacional en Protección Jurisdiccional de los Derechos de los Niños, por UNICEF. Santiago de Chile; Diplomatura en Litigación Penal por la Universidad Alberto Hurtado Santiago de Chile. De igual modo cuenta la Especialización en Justicia para Adolescentes, Proceso y Ejecución de Medidas por el Instituto de la Judicatura Federal y el Curso en Preparación Judicial en materia penal por el Centro de Estudios Judiciales.</p>
+                <p class="text-justify">Relativo a su experiencia laboral, podemos destacar que en la Dirección de Servicios Legales y Orientación Jurídica de la Consejería Jurídica del Gobierno del Distrito Federal fungió como Defensora de Oficio, así también como Ministerio Público en la Procuraduría General de Justicia del Distrito Federal. Posteriormente fue Presidenta de la Primera Sala del Consejo Tutelar para Menores Infractores del Distrito Federal. También fue Directora Técnica en la Dirección General de Reclusorios y Centros de Readaptación Social.</p>
+                <p class="text-justify">Dentro del Tribunal Superior de Justicia, fue Secretaria Proyectista de Sala; titular por 6 años en el Juzgado 40 de Primera Instancia en Materia Penal; fungió 11 años como Magistrada en la Sexta Sala de Materia Penal; desde 2008 a la fecha es Magistrada Especializada en Primera Sala de Justicia para Adolescentes y de manera paralela, desde 2019 integrante de la Sala Constitucional del Poder Judicial de la Ciudad de México.</p>
+                <p class="text-justify">La Magistrada Orea Ochoa, se ha desempeñado como catedrática desde hace más de 40 años, en áreas de capacitación y especialidad dentro del Instituto de Estudios Judiciales del Tribunal Superior de Justicia de la Ciudad de México, también ha impartido Cátedra a nivel Maestría en Criminología Delincuencia Juvenil y Teoría del Delito; en el Instituto Nacional de Ciencias Penales; en la Universidad Iberoamericana fue catedrática a nivel Licenciatura en Derecho Penal General y Parte Especial; y en el Instituto Tecnológico de Estudios Superiores Monterrey, campus Estado de México impartió la materia de Derecho Público.</p>
+                <p class="text-justify">A la par, ha publicado varias ediciones, entre las que destacan: “La Justicia Juvenil, un Nuevo Modelo de Derecho”, Comisión de Derechos Humanos del Distrito Federal, en la Revista “Defensor”; “Estudio Dogmático del Delito de Delincuencia Organizada”, en Apuntes de Delincuencia Organizada, editado por la Procuraduría General de la República; “El Proceso de Inimputables”, en la Revista Criminalia, Academia Mexicana de Ciencias Penales; “Lucha contra el crimen, verbigracia seguridad pública, ¿condición de convivencia social o transgresión de derechos humanos?”, Procuraduría General de la República y Fundación Konrad Adenauer Stiftung; “La perspectiva del Poder Judicial de México en Materia de Criminalidad”, Instituto Latinoamericano de las Naciones, Unidad para la Prevención del Delito y Tratamiento del Delincuente. Ed. Siglo XXI.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------->
 <!-----------Modals end-------------->
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
@@ -597,7 +618,7 @@ if(!isset($_SESSION['myuser']))
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="200">
             <h1>9° Taller de Cooperación<br>Procesal Internacional</h1>
-            <h2>31 de mayo, 1 y 2 de junio, Ciudad de México</h2>
+            <h2>31 de mayo y 1 de junio, Ciudad de México</h2>
             <a href="#about" class="btn-get-started scrollto">Comenzar</a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="200">
@@ -611,8 +632,8 @@ if(!isset($_SESSION['myuser']))
                     <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo determinará y emitirá, según sea el caso, la constancia de participación correspondiente directamente a su correo electrónico.</p><br>
                     <span class="mb-0 small font-color-secondary">Registros de asistencia necesarios: 2</span><br>
                     <span class="mb-0 small font-color-secondary"><?= $_SESSION['registraste'];?></span><br>
-                    <span class="mb-0 small font-color-secondary">✪ <?= $_SESSION['primerdia'];?></span><br>
-                    <span class="mb-0 small font-color-secondary">✪ <?= $_SESSION['segundodia'];?></span>
+                    <span class="mb-0 small font-color-secondary">✪ Primer día: <?= $_SESSION['primerdia'];?></span><br>
+                    <span class="mb-0 small font-color-secondary">✪ Segundo día: <?= $_SESSION['segundodia'];?></span>
                 </div>
             </div>
         </div>
@@ -899,6 +920,7 @@ if(!isset($_SESSION['myuser']))
                 </div>
                 <div class="col-lg-8"  style="max-height: 600px!important; overflow: auto;">
                     <div class="row" data-aos="fade-left"  data-aos-delay="200">
+
                         <div class="col-md-4 d-flex align-items-stretch">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                 <div class="icon"><i class="fa fa-user"></i></div>
@@ -913,6 +935,15 @@ if(!isset($_SESSION['myuser']))
                                 <h4>Christine Darden Brennan</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal2">Ver semblanza</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <div class="icon"><img src="https://i.ibb.co/cTdv1RS/A1P1.png" alt="Sra Patricia Orea Ochoa" class="rounded"></div>
+                                <h4>Mag. Sara Patricia Orea Ochoa</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal20">Ver semblanza</button>
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
@@ -1929,7 +1960,7 @@ if(!isset($_SESSION['myuser']))
                                                 <div class="card-header bg-gray-color" id="heading6">
                                                     <h2 class="mb-0">
                                                         <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6" style="text-decoration: none;">
-                                                            CLAUSURA - 19:45 hrs. Horario Central GMT-6
+                                                            MENSAJE DE CLAUSURA
                                                         </button>
                                                     </h2>
                                                 </div>
@@ -1943,7 +1974,7 @@ if(!isset($_SESSION['myuser']))
                                                                         <span class="font-ponencia">Horario: </span><span class="font-ponentes">*****</span><span class="fst-italic"><span> </span></span>
                                                                     </p>
                                                                     <div class="video-frame mx-auto">
-                                                                        <div class="embed-youtube" data-video-id="Oea3-ePpRbw">
+                                                                        <div class="embed-youtube" data-video-id="H0_AxJLQ4jk">
                                                                             <div class="embed-youtube-play"></div>
                                                                         </div>
                                                                     </div>
