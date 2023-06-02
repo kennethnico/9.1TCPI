@@ -55,8 +55,8 @@ if(!isset($_SESSION['myuser']))
         }
         /*Funcion para evitar que pasen lista después de tiempo*/
         function listReadyd(d) {
-            var toasty = ' <div class="toast" id="past" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false"><div class="toast-header"><strong class="mr-auto">9TCPI</strong><small class="text-muted">justo ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button></div><div class="toast-body" id="not">Ya no es posible registrar su asistencia.</div></div>'
-            console.log("Ya no es posible registrar su asistencia.");
+            var toasty = ' <div class="toast" id="past" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false"><div class="toast-header"><strong class="mr-auto">9TCPI</strong><small class="text-muted">justo ahora</small><button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button></div><div class="toast-body" id="not">02 de junio 2023<br>Ya no es necesario registrar su asistencia.</div></div>'
+            console.log("Ya no es necesario registrar su asistencia.");
             $('#toasts').html(toasty);
             $('#past').toast('show');
         }
@@ -609,6 +609,7 @@ if(!isset($_SESSION['myuser']))
                         <span class="mb-0 h5 font-color-secondary">Apreciable <?= $_SESSION['myuser'];?></span>
                     </div>
                     <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo determinará y emitirá, según sea el caso, la constancia de participación correspondiente directamente a su correo electrónico.</p><br>
+                    <span class="mb-0 small font-color-secondary">Registros de Asistencia requeridos: 2</span><br>
                     <span class="mb-0 small font-color-secondary"><?= $_SESSION['registraste'];?></span><br>
                     <span class="mb-0 small font-color-secondary">✪ <?= $_SESSION['primerdia'];?></span><br>
                     <span class="mb-0 small font-color-secondary">✪ <?= $_SESSION['segundodia'];?></span>
