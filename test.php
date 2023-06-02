@@ -609,8 +609,9 @@ if(!isset($_SESSION['myuser']))
                         <span class="mb-0 h5 font-color-secondary">Apreciable <?= $_SESSION['myuser'];?></span>
                     </div>
                     <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo emitirá a cada uno de los inscritos su constancia de participación correspondiente.</p><br>
-                    <span class="mb-0 small font-color-secondary">31 mayo: <?= $_SESSION['primerdia'];?></span><br>
-                    <span class="mb-0 font-color-secondary">1° junio: <?= $_SESSION['segundodia'];?></span>
+                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['registraste'];?></span><br>
+                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['primerdia'];?></span><br>
+                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['segundodia'];?></span>
                 </div>
             </div>
 

@@ -25,12 +25,18 @@ if (isset($_SESSION['myuser'])) //Comprueba que no exista una sesión
         if($define2 == 0){
             $_SESSION['registraste']= "No se encontraron sus registros de asistencia";
         }else{
-            $mifecha= date($define2['primerdia']);
-            $mifecha2= date($define2['segundodia']);
-            $NuevaFecha = strtotime ( '-1 hour' , strtotime ($mifecha) ) ;
-            $NuevaFecha2 = strtotime ( '-1 hour' , strtotime ($mifecha2) ) ;
-            $_SESSION['primerdia'] = $NuevaFecha;
-            $_SESSION['segundodia'] = $NuevaFecha2;
+            #$cadena = explode("/",$define2['primerdia']);
+            #$mifecha= new DateTime($cadena[1]."/".$cadena[0]."/".$cadena[2]);
+            #$mifecha->modify('-1 hour');
+            #$cadena2 = explode("/",$define2['segundodia']);
+            #$mifecha2= new DateTime($cadena2[1]."/".$cadena2[0]."/".$cadena2[2]);
+            #$mifecha2->modify('-1 hour');
+            #$_SESSION['registraste']= "Registros de asistencia:";
+            #$_SESSION['primerdia'] = $mifecha->format('d-M H:i:s a');
+            #$_SESSION['segundodia'] = $mifecha2->format('d-M H:i:s a');
+            $_SESSION['registraste']= "Sus registros de asistencia:";
+            $_SESSION['primerdia'] = $define2['primerdia'];
+            $_SESSION['segundodia'] = $define2['segundodia'];
         }
         $_SESSION['ide'] = $define['id'];
         $_SESSION['myuser'] = $define['nombre'];

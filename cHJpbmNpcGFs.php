@@ -609,10 +609,9 @@ if(!isset($_SESSION['myuser']))
                         <span class="mb-0 h5 font-color-secondary">Apreciable <?= $_SESSION['myuser'];?></span>
                     </div>
                     <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo emitirá a cada uno de los inscritos su constancia de participación a su correo electrónico.</p><br>
-                    <!--
-                    <span class="mb-0 small font-color-secondary">31 mayo: <?= $_SESSION['primerdia'];?></span><br>
-                    <span class="mb-0 font-color-secondary">1° junio: <?= $_SESSION['segundodia'];?></span>
-                    -->
+                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['registraste'];?></span><br>
+                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['primerdia'];?></span><br>
+                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['segundodia'];?></span>
                 </div>
             </div>
         </div>
@@ -1923,6 +1922,37 @@ if(!isset($_SESSION['myuser']))
                                                 </div>
                                             </div>
                                             <!-- End Ponencia 5-->
+
+                                            <!-- Begin Clausura-->
+                                            <div class="card">
+                                                <div class="card-header bg-gray-color" id="heading6">
+                                                    <h2 class="mb-0">
+                                                        <button class="btn btn-link btn-block text-center font-color-secondary collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6" style="text-decoration: none;">
+                                                            CLAUSURA - 19:45 hrs. Horario Central GMT-6
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#jueves1">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-8 offset-2 align-middle">
+                                                                <div class="align-center">
+                                                                    <p class="font-primary-color text-start">
+                                                                        <span class="font-ponencia">Tema: </span><span class="font-ponentes">CLAUSURA</span><br>
+                                                                        <span class="font-ponencia">Horario: </span><span class="font-ponentes">*****</span><span class="fst-italic"><span> </span></span>
+                                                                    </p>
+                                                                    <div class="video-frame mx-auto">
+                                                                        <div class="embed-youtube" data-video-id="Oea3-ePpRbw">
+                                                                            <div class="embed-youtube-play"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Mesa 4-->
                                         </div>
                                     </li>
                                 </ul>

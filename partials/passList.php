@@ -1,7 +1,7 @@
 <?php
 session_start();
-$key_id="olivia.ikeda@cjcdmx.gob.mx";
-$key_ps="8h3mjN1";
+$key_id="nayerobe@gmail.com";
+$key_ps="oipvoB0I";
 #error_reporting(0);
 #setlocale(LC_TIME,"es_MX");
 if (isset($_SESSION['myuser'])) //Comprueba que no exista una sesión
@@ -30,10 +30,11 @@ if (isset($_SESSION['myuser'])) //Comprueba que no exista una sesión
             $mifecha= new DateTime($cadena[1]."/".$cadena[0]."/".$cadena[2]);
             $mifecha->modify('-1 hour');
             $cadena2 = explode("/",$define2['segundodia']);
-            $mifecha2= new DateTime($cadena[1]."/".$cadena[0]."/".$cadena[2]);
+            $mifecha2= new DateTime($cadena2[1]."/".$cadena2[0]."/".$cadena2[2]);
             $mifecha2->modify('-1 hour');
-            $_SESSION['primerdia'] = $mifecha;
-            $_SESSION['segundodia'] = $mifecha2;
+            $_SESSION['registraste']= "Registros de asistencia:";
+            $_SESSION['primerdia'] = $mifecha->format('d-M H:i:s a');
+            $_SESSION['segundodia'] = $mifecha2->format('d-M H:i:s a');
         }
         $_SESSION['ide'] = $define['id'];
         $_SESSION['myuser'] = $define['nombre'];
