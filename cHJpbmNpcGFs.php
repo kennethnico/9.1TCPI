@@ -103,7 +103,7 @@ if(!isset($_SESSION['myuser']))
 <body>
 <!-----------Boton flotante begin--------------><!---------------------PASE DE LISTA------------->
 <div class="container_myBoton">
-    <button type="button" class="btn" onclick="listReady('segundodia')">
+    <button type="button" class="btn" onclick="listReadyd('segundodia')">
     <!--<button type="button" class="btn" onclick="listReadyd('segundodia')">-->
         <img class="myBoton" src="./assets/logos/registro_icon.svg" alt="">
     </button>
@@ -602,16 +602,16 @@ if(!isset($_SESSION['myuser']))
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="200">
             <div class="d-flex justify-content-center align-items-center p-4 bg-white bg-opacity-75 rounded-3">
-                <span class="display-6 lh-1 font-color-secondary mb-0"><i class="bi bi-exclamation-diamond-fill"></i></span>
+                <span class="display-6 lh-1 text-danger mb-0"><i class="bi bi-exclamation-diamond-fill"></i></span>
                 <div class="ms-4 h6 fw-normal mb-0">
                     <div class="d-flex">
                         <!--<h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="6" data-purecounter-delay="300" data-purecounter-duration="0">6</h5>-->
                         <span class="mb-0 h5 font-color-secondary">Apreciable <?= $_SESSION['myuser'];?></span>
                     </div>
-                    <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo emitirá a cada uno de los inscritos su constancia de participación a su correo electrónico.</p><br>
+                    <p class="mb-0 mt-2 font-color-secondary text-justify">Se informa a todos nuestros participantes que, en un plazo máximo de 72 horas, una vez que el sistema informático evalúe el registro al 100% de su asistencia. Este mecanismo determinará y emitirá, según sea el caso, la constancia de participación correspondiente directamente a su correo electrónico.</p><br>
                     <span class="mb-0 small font-color-secondary"><?= $_SESSION['registraste'];?></span><br>
-                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['primerdia'];?></span><br>
-                    <span class="mb-0 small font-color-secondary"><?= $_SESSION['segundodia'];?></span>
+                    <span class="mb-0 small font-color-secondary">✪ <?= $_SESSION['primerdia'];?></span><br>
+                    <span class="mb-0 small font-color-secondary">✪ <?= $_SESSION['segundodia'];?></span>
                 </div>
             </div>
         </div>
