@@ -937,21 +937,21 @@ if(!isset($_SESSION['myuser']))
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal2">Ver semblanza</button>
                             </div>
                         </div>
-
-                        <div class="col-md-4 d-flex align-items-stretch mt-4">
-                            <div class="icon-box">
-                                <div class="icon"><img src="https://i.ibb.co/cTdv1RS/A1P1.png" alt="Sra Patricia Orea Ochoa" class="rounded"></div>
-                                <h4>Mag. Sara Patricia Orea Ochoa</h4>
-                                <p>Da clic en el botón para consultar la semblanza curricular del ponente:</p><br>
-                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal20">Ver semblanza</button>
-                            </div>
-                        </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-lg-0">
                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="icon"><i class="fa fa-user"></i></div>
                                 <h4>Liliana Oliva Bernal</h4>
                                 <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
                                 <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal3">Ver semblanza</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <div class="icon"><img src="https://i.ibb.co/cTdv1RS/A1P1.png" width="100" alt="Sra Patricia Orea Ochoa" class="rounded"></div>
+                                <h4>Mag. Sara Patricia Orea Ochoa</h4>
+                                <p>Da clic en el botón para consultar la semblanza curricular de la ponente:</p><br>
+                                <button type="button" class="btn btn-light bg-primary-color" data-toggle="modal" data-target="#modal20">Ver semblanza</button>
                             </div>
                         </div>
                         <div class="col-md-4 d-flex align-items-stretch mt-4">
